@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_fcms_intg_source">
+    <sn_fcms_intg_source action="DELETE">
+        <erp>sap</erp>
+        <fin_erp display_value="">9a59d34ec331a9101ab7b73a050131eb</fin_erp>
+        <inactive>false</inactive>
+        <name>SAP ECC</name>
+        <sys_class_name>sn_fcms_intg_source</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-03-05 06:35:43</sys_created_on>
+        <sys_id>7bd6edcf871921508dd710683cbb3560</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SAP ECC</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_fcms_intg_source_7bd6edcf871921508dd710683cbb3560</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 08:53:04</sys_updated_on>
+        <u_connection display_value="sn_sap_ecc_rfc_spo.SAP_ECC">d0578871dbad8010ea4494d9db9619d9</u_connection>
+    </sn_fcms_intg_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sn_fcms_intg_source_7bd6edcf871921508dd710683cbb3560</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_fcms_intg_source"><sn_fcms_intg_source action="INSERT_OR_UPDATE"><erp>sap</erp><fin_erp display_value="">9a59d34ec331a9101ab7b73a050131eb</fin_erp><inactive>false</inactive><name>SAP ECC</name><sys_class_name>sn_fcms_intg_source</sys_class_name><sys_created_by>Mayank</sys_created_by><sys_created_on>2023-03-05 06:35:43</sys_created_on><sys_id>7bd6edcf871921508dd710683cbb3560</sys_id><sys_mod_count>2</sys_mod_count><sys_name>SAP ECC</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sn_fcms_intg_source_7bd6edcf871921508dd710683cbb3560</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-27 08:53:04</sys_updated_on><u_connection display_value="sn_sap_ecc_rfc_spo.SAP_ECC">d0578871dbad8010ea4494d9db9619d9</u_connection></sn_fcms_intg_source></record_update>]]></payload>
+        <payload_hash>14050320</payload_hash>
+        <record_name>SAP ECC</record_name>
+        <reverted_from/>
+        <source>debc5fa2838aad102aac11b6feaad33b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-10 09:16:38</sys_created_on>
+        <sys_id>01152f2e838aad102aac11b6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1876a73fa510000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-10 09:16:38</sys_updated_on>
+        <type>ERP Source Configuration</type>
+        <update_guid>85152f2eb88aad109f998f6157d79ed1</update_guid>
+        <update_guid_history>85152f2eb88aad109f998f6157d79ed1:14050320,add4ab2eac8aad1082a89d85eb79b767:1945997364,4b9948790202e9102667b838d54cfb34:0,0e96c8b15b02e9108e025888b78333a6:-713941161,ffeafbed0f8ea910fbcfd4b30fdc5310:0,35b5f3a5928ea91056ee250bb992f399:-713941161,7a09dc684ec6a51030e7a7b2a2801045:0,9bf210206cc6a5109537b92b5370c9d5:-713941161,871a406c7946a510404f45f31e099f61:0,636588243046a5101d017a735bed0b14:-713941161,b8ee73184f06a5102d74c2ec3c336549:0,0983977890f9655037a594f0b1998d6b:0,858b473850b96550dc60c6453f9f4ba9:0,ce6e750bcf112110b91d32731ec2f4a8:0</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SAP ECC">2b2562db838261502aac11b6feaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-12 12:32:53</sys_created_on>
+        <sys_db_object display_value="" name="sn_fcms_intg_source">sn_fcms_intg_source</sys_db_object>
+        <sys_id>0f80533a165242ebb931c44aa26c4059</sys_id>
+        <sys_metadata>7bd6edcf871921508dd710683cbb3560</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAP ECC</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sn_fcms_intg_source_7bd6edcf871921508dd710683cbb3560</sys_update_name>
+        <sys_update_version display_value="sn_fcms_intg_source_7bd6edcf871921508dd710683cbb3560">01152f2e838aad102aac11b6feaad3d2</sys_update_version>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:32:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
