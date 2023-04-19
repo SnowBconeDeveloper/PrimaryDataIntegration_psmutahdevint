@@ -15,7 +15,7 @@
         <internal_name>segregate_response__fx_exchange_data</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"051e53d4-b457-446c-a58f-c9269c327023"}},{"name":"{{action.delimeter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6104a646-acd8-412c-b018-c98a6952f0a8"}},{"name":"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].fx_data}}","label":"step➛Script step➛FX Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDf9db1fa3de47d150ee8e1676cd046d47","child_label":"FX Data_child","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"FX_Data_child","child_uiUniqueId":"dcafc34a-f735-47c8-a59f-2c457874845a","uiUniqueId":"5e445531-f5bb-42a5-8b7b-799505571057"}},{"name":"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"7a720db7-eb67-444e-a106-0089bf8d5ca7"}}]</label_cache>
         <master_snapshot>b2c6352d47f25d1086887562846d43c6</master_snapshot>
-        <name>Segregate FX Exchange Data Response</name>
+        <name>Segregate FX Exchange Rate Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3f4f5a947f25d1086887562846d43eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Segregate FX Exchange Data Response</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Segregate FX Exchange Rate Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a3f4f5a947f25d1086887562846d43eb</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:18:55</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:42:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -172,7 +172,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=a3f4f5a947f25d1086887562846d43eb^sys_idNOT IN0c0579a947f25d1086887562846d433a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action>
+        <action display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action>
         <cid>87883d34-4fa8-47c2-9a79-6e4d02702fdd</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -629,7 +629,7 @@
         <sys_created_on>2022-11-15 08:01:51</sys_created_on>
         <sys_id>0edb1fa34747d15096fcb777746d434f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>FX Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -652,7 +652,7 @@
         <sys_created_on>2022-11-15 08:10:04</sys_created_on>
         <sys_id>aabd5f274747d15096fcb777746d4389</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -703,7 +703,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a3f4f5a947f25d1086887562846d43eb</name>
@@ -787,7 +787,7 @@
         <label>Delimiter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a3f4f5a947f25d1086887562846d43eb</name>
@@ -874,7 +874,7 @@
         <label>FX Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a3f4f5a947f25d1086887562846d43eb</name>
@@ -961,7 +961,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a3f4f5a947f25d1086887562846d43eb</name>
@@ -1048,7 +1048,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a3f4f5a947f25d1086887562846d43eb</name>
@@ -1135,7 +1135,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</model>
+        <model display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</model>
         <model_id>a3f4f5a947f25d1086887562846d43eb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a3f4f5a947f25d1086887562846d43eb</name>
@@ -1183,7 +1183,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a3f4f5a947f25d1086887562846d43eb"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a3f4f5a947f25d1086887562846d43eb^sys_idNOT INa50579a947f25d1086887562846d43c3"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_id>
+        <action_type_id display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_type_id>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-10-27 09:09:04</sys_created_on>
         <sys_id>a50579a947f25d1086887562846d43c3</sys_id>
@@ -1220,7 +1220,7 @@
         <sys_created_on>2022-11-15 08:00:40</sys_created_on>
         <sys_id>899bd7a34747d15096fcb777746d4389</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1243,7 +1243,7 @@
         <sys_created_on>2022-10-27 09:08:58</sys_created_on>
         <sys_id>8c0579a947f25d1086887562846d4338</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1268,7 +1268,7 @@
         <sys_created_on>2022-10-27 09:09:02</sys_created_on>
         <sys_id>0d0579a947f25d1086887562846d438c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1291,7 +1291,7 @@
         <sys_created_on>2022-11-15 08:11:18</sys_created_on>
         <sys_id>280ed3674747d15096fcb777746d43c2</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1314,7 +1314,7 @@
         <sys_created_on>2022-11-15 08:03:12</sys_created_on>
         <sys_id>422c53e34747d15096fcb777746d4353</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>FX Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1337,7 +1337,7 @@
         <sys_created_on>2022-10-27 09:09:03</sys_created_on>
         <sys_id>510579a947f25d1086887562846d43b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1350,19 +1350,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a3f4f5a947f25d1086887562846d43eb"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=a3f4f5a947f25d1086887562846d43eb^sys_idNOT IN40d6752d47f25d1086887562846d43ac"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_id>
+        <action_id display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"40d6752d47f25d1086887562846d43ac","name":"plan","plan_signature":null}}</plan>
-        <snapshot>5e6b1b29834a251067a211b6feaad37a</snapshot>
+        <snapshot>717e4c9dc3da255068187addd40131b2</snapshot>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-10-27 09:16:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40d6752d47f25d1086887562846d43ac</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:00:32</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:42:17</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1378,26 +1378,26 @@
         <internal_name>segregate_response__fx_exchange_data</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"051e53d4-b457-446c-a58f-c9269c327023"}},{"name":"{{action.delimeter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6104a646-acd8-412c-b018-c98a6952f0a8"}},{"name":"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].fx_data}}","label":"step➛Script step➛FX Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDf9db1fa3de47d150ee8e1676cd046d47","child_label":"FX Data_child","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"FX_Data_child","child_uiUniqueId":"dcafc34a-f735-47c8-a59f-2c457874845a","uiUniqueId":"5e445531-f5bb-42a5-8b7b-799505571057"}},{"name":"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"7a720db7-eb67-444e-a106-0089bf8d5ca7"}}]</label_cache>
         <master>true</master>
-        <name>Segregate FX Exchange Data Response</name>
+        <name>Segregate FX Exchange Rate Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</parent_action>
+        <parent_action display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-10-27 09:16:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2c6352d47f25d1086887562846d43c6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:00:23</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:42:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1522,7 +1522,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=b2c6352d47f25d1086887562846d43c6^sys_idNOT IN8bc6352d47f25d1086887562846d43cf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action>
+        <action display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action>
         <cid>87883d34-4fa8-47c2-9a79-6e4d02702fdd</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1979,7 +1979,7 @@
         <sys_created_on>2022-11-15 08:03:50</sys_created_on>
         <sys_id>1b4c17e34747d15096fcb777746d438a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FX Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2002,7 +2002,7 @@
         <sys_created_on>2022-11-15 08:10:24</sys_created_on>
         <sys_id>a7cddf274747d15096fcb777746d43a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2053,7 +2053,7 @@
         <label>Delimiter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_b2c6352d47f25d1086887562846d43c6</name>
@@ -2137,7 +2137,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_b2c6352d47f25d1086887562846d43c6</name>
@@ -2224,7 +2224,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_b2c6352d47f25d1086887562846d43c6</name>
@@ -2311,7 +2311,7 @@
         <label>FX Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_b2c6352d47f25d1086887562846d43c6</name>
@@ -2398,7 +2398,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_b2c6352d47f25d1086887562846d43c6</name>
@@ -2485,7 +2485,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</model>
+        <model display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</model>
         <model_id>b2c6352d47f25d1086887562846d43c6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_b2c6352d47f25d1086887562846d43c6</name>
@@ -2533,7 +2533,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b2c6352d47f25d1086887562846d43c6"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b2c6352d47f25d1086887562846d43c6^sys_idNOT INa7c6752d47f25d1086887562846d433c"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type_id>
+        <action_type_id display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action_type_id>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-10-27 09:16:51</sys_created_on>
         <sys_id>a7c6752d47f25d1086887562846d433c</sys_id>
@@ -2541,7 +2541,7 @@
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2022-10-27 09:16:51</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a7c6752d47f25d1086887562846d433c^sys_idNOT INa2bb9f29834a251067a211b6feaad3c0"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a7c6752d47f25d1086887562846d433c^sys_idNOT IN357e4c9dc3da255068187addd40131b1"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2022-10-27 02:16:51">a7c6752d47f25d1086887562846d433c</action_status_metadata_id>
         <condition>{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].__step_status__.code}}!=0</condition>
@@ -2549,12 +2549,12 @@
         <label/>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[87883d34-4fa8-47c2-9a79-6e4d02702fdd].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-04-07 06:01:51</sys_created_on>
-        <sys_id>a2bb9f29834a251067a211b6feaad3c0</sys_id>
+        <sys_created_by>krishna</sys_created_by>
+        <sys_created_on>2023-04-18 06:42:15</sys_created_on>
+        <sys_id>357e4c9dc3da255068187addd40131b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:01:51</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:42:15</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b2c6352d47f25d1086887562846d43c6^sys_idNOT IN4f4c17e34747d15096fcb777746d4377,4fc6352d47f25d1086887562846d43cd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2570,7 +2570,7 @@
         <sys_created_on>2022-11-15 08:03:49</sys_created_on>
         <sys_id>4f4c17e34747d15096fcb777746d4377</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2593,7 +2593,7 @@
         <sys_created_on>2022-10-27 09:16:48</sys_created_on>
         <sys_id>4fc6352d47f25d1086887562846d43cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2618,7 +2618,7 @@
         <sys_created_on>2022-11-15 08:11:49</sys_created_on>
         <sys_id>442ed7674747d15096fcb777746d4302</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2641,7 +2641,7 @@
         <sys_created_on>2022-10-27 09:16:50</sys_created_on>
         <sys_id>9bc6752d47f25d1086887562846d4325</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2664,7 +2664,7 @@
         <sys_created_on>2022-10-27 09:16:50</sys_created_on>
         <sys_id>9fc6752d47f25d1086887562846d431e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2687,7 +2687,7 @@
         <sys_created_on>2022-11-15 08:03:52</sys_created_on>
         <sys_id>ff4c17e34747d15096fcb777746d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FX Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>

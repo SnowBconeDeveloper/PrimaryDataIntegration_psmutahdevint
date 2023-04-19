@@ -15,7 +15,7 @@
         <internal_name>segregate_response__currency_text_table</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a58dc664-4d0f-41c4-8550-4d38bb92dbfc"}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"df09d142-87d1-476c-9135-6bd3283abb09"}},{"name":"{{step[f846fc62-4420-4b55-859b-28b2ab06d242].currency_text}}","label":"step➛Script step➛Currency Text","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD27498ea5339bd11051585f4327629dbd","child_label":"Currency Text_child","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Currency_Text_child","child_uiUniqueId":"016bde22-aef7-41ad-b239-8c954227700d","uiUniqueId":"5a9a1868-7cd5-4e9c-8684-28248df13c9f"}},{"name":"{{step[f846fc62-4420-4b55-859b-28b2ab06d242].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"5d7f7573-435d-4c59-b952-faeec294b31e"}}]</label_cache>
         <master_snapshot>917ace29479bd11096fcb777746d4324</master_snapshot>
-        <name>Segregate Currency Text Response</name>
+        <name>Segregate Currency Text Data Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ac78625479bd11096fcb777746d430a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Segregate Currency Text Response</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Segregate Currency Text Data Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0ac78625479bd11096fcb777746d430a</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:18:39</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-19 05:33:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -148,7 +148,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=0ac78625479bd11096fcb777746d430a^sys_idNOT INc3498ea5479bd11096fcb777746d4389"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</action>
+        <action display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</action>
         <cid>f846fc62-4420-4b55-859b-28b2ab06d242</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -618,7 +618,7 @@
         <sys_created_on>2022-11-21 07:13:40</sys_created_on>
         <sys_id>475aca29479bd11096fcb777746d4320</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -641,7 +641,7 @@
         <sys_created_on>2022-11-21 07:09:04</sys_created_on>
         <sys_id>ef498ea5479bd11096fcb777746d43c3</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -692,7 +692,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_0ac78625479bd11096fcb777746d430a</name>
@@ -776,7 +776,7 @@
         <label>Delimeter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_0ac78625479bd11096fcb777746d430a</name>
@@ -863,7 +863,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_0ac78625479bd11096fcb777746d430a</name>
@@ -950,7 +950,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_0ac78625479bd11096fcb777746d430a</name>
@@ -1037,7 +1037,7 @@
         <label>Currency Text</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_0ac78625479bd11096fcb777746d430a</name>
@@ -1124,7 +1124,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</model>
+        <model display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</model>
         <model_id>0ac78625479bd11096fcb777746d430a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_0ac78625479bd11096fcb777746d430a</name>
@@ -1172,7 +1172,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=0ac78625479bd11096fcb777746d430a"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0ac78625479bd11096fcb777746d430a^sys_idNOT IN0e59cea5479bd11096fcb777746d4300"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</action_type_id>
+        <action_type_id display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</action_type_id>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:09:14</sys_created_on>
         <sys_id>0e59cea5479bd11096fcb777746d4300</sys_id>
@@ -1195,7 +1195,7 @@
         <sys_created_on>2022-11-21 07:09:00</sys_created_on>
         <sys_id>6249caa5479bd11096fcb777746d43ca</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1218,7 +1218,7 @@
         <sys_created_on>2022-11-21 07:09:01</sys_created_on>
         <sys_id>b2498ea5479bd11096fcb777746d4387</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1243,7 +1243,7 @@
         <sys_created_on>2022-11-21 07:12:19</sys_created_on>
         <sys_id>5f0a0629479bd11096fcb777746d4388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1266,7 +1266,7 @@
         <sys_created_on>2022-11-21 07:13:43</sys_created_on>
         <sys_id>7b5aca29479bd11096fcb777746d43d7</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1289,7 +1289,7 @@
         <sys_created_on>2022-11-21 07:12:22</sys_created_on>
         <sys_id>8c1a0629479bd11096fcb777746d4394</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1312,7 +1312,7 @@
         <sys_created_on>2022-11-21 07:12:20</sys_created_on>
         <sys_id>ef0a0629479bd11096fcb777746d438f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1325,19 +1325,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0ac78625479bd11096fcb777746d430a"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=0ac78625479bd11096fcb777746d430a^sys_idNOT IN5b8a8269479bd11096fcb777746d4327"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</action_id>
+        <action_id display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5b8a8269479bd11096fcb777746d4327","name":"plan","plan_signature":null}}</plan>
-        <snapshot>a94d17e9834a251067a211b6feaad35d</snapshot>
+        <snapshot>ac48856183d669502aac11b6feaad309</snapshot>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b8a8269479bd11096fcb777746d4327</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:08:37</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-19 05:33:16</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1353,26 +1353,26 @@
         <internal_name>segregate_response__currency_text_table</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a58dc664-4d0f-41c4-8550-4d38bb92dbfc"}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"df09d142-87d1-476c-9135-6bd3283abb09"}},{"name":"{{step[f846fc62-4420-4b55-859b-28b2ab06d242].currency_text}}","label":"step➛Script step➛Currency Text","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD27498ea5339bd11051585f4327629dbd","child_label":"Currency Text_child","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Currency_Text_child","child_uiUniqueId":"016bde22-aef7-41ad-b239-8c954227700d","uiUniqueId":"5a9a1868-7cd5-4e9c-8684-28248df13c9f"}},{"name":"{{step[f846fc62-4420-4b55-859b-28b2ab06d242].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"5d7f7573-435d-4c59-b952-faeec294b31e"}}]</label_cache>
         <master>true</master>
-        <name>Segregate Currency Text Response</name>
+        <name>Segregate Currency Text Data Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</parent_action>
+        <parent_action display_value="Segregate Currency Text Data Response">0ac78625479bd11096fcb777746d430a</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>917ace29479bd11096fcb777746d4324</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:59:38</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-19 05:33:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1471,7 +1471,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=917ace29479bd11096fcb777746d4324^sys_idNOT IN4b7a0269479bd11096fcb777746d431e"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</action>
+        <action display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</action>
         <cid>f846fc62-4420-4b55-859b-28b2ab06d242</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1941,7 +1941,7 @@
         <sys_created_on>2022-11-21 07:14:17</sys_created_on>
         <sys_id>c48a0269479bd11096fcb777746d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1964,7 +1964,7 @@
         <sys_created_on>2022-11-21 07:14:16</sys_created_on>
         <sys_id>f77a0269479bd11096fcb777746d43a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2015,7 +2015,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_917ace29479bd11096fcb777746d4324</name>
@@ -2099,7 +2099,7 @@
         <label>Delimeter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_917ace29479bd11096fcb777746d4324</name>
@@ -2186,7 +2186,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_917ace29479bd11096fcb777746d4324</name>
@@ -2273,7 +2273,7 @@
         <label>Currency Text</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_917ace29479bd11096fcb777746d4324</name>
@@ -2360,7 +2360,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_917ace29479bd11096fcb777746d4324</name>
@@ -2447,7 +2447,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</model>
+        <model display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</model>
         <model_id>917ace29479bd11096fcb777746d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_917ace29479bd11096fcb777746d4324</name>
@@ -2495,7 +2495,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=917ace29479bd11096fcb777746d4324"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=917ace29479bd11096fcb777746d4324^sys_idNOT INe58a4269479bd11096fcb777746d4360"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</action_type_id>
+        <action_type_id display_value="Segregate Currency Text Data Response">917ace29479bd11096fcb777746d4324</action_type_id>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:23</sys_created_on>
         <sys_id>e58a4269479bd11096fcb777746d4360</sys_id>
@@ -2518,7 +2518,7 @@
         <sys_created_on>2022-11-21 07:14:13</sys_created_on>
         <sys_id>8b7a0269479bd11096fcb777746d431c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2541,7 +2541,7 @@
         <sys_created_on>2022-11-21 07:14:12</sys_created_on>
         <sys_id>c37a0269479bd11096fcb777746d4318</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2566,7 +2566,7 @@
         <sys_created_on>2022-11-21 07:14:20</sys_created_on>
         <sys_id>7c8a0269479bd11096fcb777746d43c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2589,7 +2589,7 @@
         <sys_created_on>2022-11-21 07:14:21</sys_created_on>
         <sys_id>898a4269479bd11096fcb777746d431e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2612,7 +2612,7 @@
         <sys_created_on>2022-11-21 07:14:22</sys_created_on>
         <sys_id>d98a4269479bd11096fcb777746d4323</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2635,7 +2635,7 @@
         <sys_created_on>2022-11-21 07:14:23</sys_created_on>
         <sys_id>e18a4269479bd11096fcb777746d4328</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>

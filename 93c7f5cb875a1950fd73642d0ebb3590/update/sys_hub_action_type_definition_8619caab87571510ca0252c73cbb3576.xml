@@ -15,7 +15,7 @@
         <internal_name>segregate_gl_account_response___text_table</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛Json String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d9100514-3507-4450-bf03-6f5607e0e1eb"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c4fc64d8-601f-4dd7-af17-3aa5c6f5a9a1"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].ledger_account}}","label":"step➛Script step➛Ledger Account","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDc319caab06571510079c8c6c064a85b8","child_label":"Ledger Account Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Ledger_Account_Data","child_uiUniqueId":"042e6424-ea58-4cbf-a6fc-b6aa3bd82078","uiUniqueId":"eb3b316f-4a52-4336-bd95-9a3fcf7d3917"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"98ebe74d-fcd7-48a6-9ba7-adea2658eecf"}}]</label_cache>
         <master_snapshot>720bca2f87571510ca0252c73cbb359d</master_snapshot>
-        <name>Segregate GL account text response</name>
+        <name>Segregate GL Account Text Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8619caab87571510ca0252c73cbb3576</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Segregate GL account text response</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Segregate GL Account Text Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8619caab87571510ca0252c73cbb3576</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:18:51</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:59:54</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -148,7 +148,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=8619caab87571510ca0252c73cbb3576^sys_idNOT INb219caab87571510ca0252c73cbb35ac"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</action>
+        <action display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</action>
         <cid>36d88703-c7a1-4f81-9cf2-3bb4fa6228ce</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -582,7 +582,7 @@
         <sys_created_on>2022-11-27 12:16:03</sys_created_on>
         <sys_id>0f19caab87571510ca0252c73cbb35be</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Ledger Account</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -605,7 +605,7 @@
         <sys_created_on>2023-01-02 18:14:42</sys_created_on>
         <sys_id>2364b4d74788655002367562846d431a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -656,7 +656,7 @@
         <label>Delimiter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_8619caab87571510ca0252c73cbb3576</name>
@@ -740,7 +740,7 @@
         <label>Json String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_8619caab87571510ca0252c73cbb3576</name>
@@ -827,7 +827,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8619caab87571510ca0252c73cbb3576</name>
@@ -914,7 +914,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8619caab87571510ca0252c73cbb3576</name>
@@ -1001,7 +1001,7 @@
         <label>Ledger Account</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8619caab87571510ca0252c73cbb3576</name>
@@ -1088,7 +1088,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</model>
+        <model display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</model>
         <model_id>8619caab87571510ca0252c73cbb3576</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8619caab87571510ca0252c73cbb3576</name>
@@ -1136,7 +1136,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=8619caab87571510ca0252c73cbb3576"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=8619caab87571510ca0252c73cbb3576^sys_idNOT IN5f19caab87571510ca0252c73cbb35e9"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</action_type_id>
+        <action_type_id display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</action_type_id>
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-27 12:16:05</sys_created_on>
         <sys_id>5f19caab87571510ca0252c73cbb35e9</sys_id>
@@ -1159,7 +1159,7 @@
         <sys_created_on>2022-11-27 12:16:02</sys_created_on>
         <sys_id>3219caab87571510ca0252c73cbb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1182,7 +1182,7 @@
         <sys_created_on>2022-11-27 12:16:02</sys_created_on>
         <sys_id>7e19caab87571510ca0252c73cbb3580</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Json String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1207,7 +1207,7 @@
         <sys_created_on>2023-01-02 18:14:43</sys_created_on>
         <sys_id>8074b4d74788655002367562846d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1230,7 +1230,7 @@
         <sys_created_on>2022-11-27 12:16:04</sys_created_on>
         <sys_id>d319caab87571510ca0252c73cbb35d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1253,7 +1253,7 @@
         <sys_created_on>2022-11-27 12:16:04</sys_created_on>
         <sys_id>d719caab87571510ca0252c73cbb35de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ledger Account</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1276,7 +1276,7 @@
         <sys_created_on>2022-11-27 12:16:04</sys_created_on>
         <sys_id>db19caab87571510ca0252c73cbb35d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1289,19 +1289,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_8619caab87571510ca0252c73cbb3576"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=8619caab87571510ca0252c73cbb3576^sys_idNOT INc91b0e2f87571510ca0252c73cbb3584"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</action_id>
+        <action_id display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c91b0e2f87571510ca0252c73cbb3584","name":"plan","plan_signature":null}}</plan>
-        <snapshot>25ea1fe5834a251067a211b6feaad363</snapshot>
+        <snapshot>44825891c31e255068187addd401315c</snapshot>
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-27 12:24:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c91b0e2f87571510ca0252c73cbb3584</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:58:15</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:59:55</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1317,26 +1317,26 @@
         <internal_name>segregate_gl_account_response___text_table</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛Json String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d9100514-3507-4450-bf03-6f5607e0e1eb"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c4fc64d8-601f-4dd7-af17-3aa5c6f5a9a1"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].ledger_account}}","label":"step➛Script step➛Ledger Account","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDc319caab06571510079c8c6c064a85b8","child_label":"Ledger Account Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Ledger_Account_Data","child_uiUniqueId":"042e6424-ea58-4cbf-a6fc-b6aa3bd82078","uiUniqueId":"eb3b316f-4a52-4336-bd95-9a3fcf7d3917"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"98ebe74d-fcd7-48a6-9ba7-adea2658eecf"}}]</label_cache>
         <master>true</master>
-        <name>Segregate GL account text response</name>
+        <name>Segregate GL Account Text Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Segregate GL account text response">8619caab87571510ca0252c73cbb3576</parent_action>
+        <parent_action display_value="Segregate GL Account Text Response">8619caab87571510ca0252c73cbb3576</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-27 12:24:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>720bca2f87571510ca0252c73cbb359d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:58:13</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-18 06:59:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1435,7 +1435,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=720bca2f87571510ca0252c73cbb359d^sys_idNOT IN0b0bca2f87571510ca0252c73cbb35aa"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</action>
+        <action display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</action>
         <cid>36d88703-c7a1-4f81-9cf2-3bb4fa6228ce</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1869,7 +1869,7 @@
         <sys_created_on>2023-01-02 18:15:06</sys_created_on>
         <sys_id>198438d74788655002367562846d43dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1892,7 +1892,7 @@
         <sys_created_on>2022-11-27 12:24:32</sys_created_on>
         <sys_id>9b0bca2f87571510ca0252c73cbb35e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ledger Account</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1943,7 +1943,7 @@
         <label>Delimiter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_720bca2f87571510ca0252c73cbb359d</name>
@@ -2027,7 +2027,7 @@
         <label>Json String</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_720bca2f87571510ca0252c73cbb359d</name>
@@ -2114,7 +2114,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_720bca2f87571510ca0252c73cbb359d</name>
@@ -2201,7 +2201,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_720bca2f87571510ca0252c73cbb359d</name>
@@ -2288,7 +2288,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_720bca2f87571510ca0252c73cbb359d</name>
@@ -2375,7 +2375,7 @@
         <label>Ledger Account</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</model>
+        <model display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</model>
         <model_id>720bca2f87571510ca0252c73cbb359d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_720bca2f87571510ca0252c73cbb359d</name>
@@ -2423,7 +2423,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=720bca2f87571510ca0252c73cbb359d"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=720bca2f87571510ca0252c73cbb359d^sys_idNOT IN630b0e2f87571510ca0252c73cbb3514"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate GL account text response">720bca2f87571510ca0252c73cbb359d</action_type_id>
+        <action_type_id display_value="Segregate GL Account Text Response">720bca2f87571510ca0252c73cbb359d</action_type_id>
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-27 12:24:33</sys_created_on>
         <sys_id>630b0e2f87571510ca0252c73cbb3514</sys_id>
@@ -2446,7 +2446,7 @@
         <sys_created_on>2022-11-27 12:24:31</sys_created_on>
         <sys_id>0f0bca2f87571510ca0252c73cbb35a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2469,7 +2469,7 @@
         <sys_created_on>2022-11-27 12:24:31</sys_created_on>
         <sys_id>8b0bca2f87571510ca0252c73cbb35a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Json String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2494,7 +2494,7 @@
         <sys_created_on>2022-11-27 12:24:32</sys_created_on>
         <sys_id>1b0bca2f87571510ca0252c73cbb35fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2517,7 +2517,7 @@
         <sys_created_on>2023-01-02 18:15:07</sys_created_on>
         <sys_id>358438d74788655002367562846d43fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2540,7 +2540,7 @@
         <sys_created_on>2022-11-27 12:24:33</sys_created_on>
         <sys_id>670b0e2f87571510ca0252c73cbb3509</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ledger Account</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2563,7 +2563,7 @@
         <sys_created_on>2022-11-27 12:24:33</sys_created_on>
         <sys_id>ab0b0e2f87571510ca0252c73cbb3504</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
