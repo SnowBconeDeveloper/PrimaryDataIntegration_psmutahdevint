@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="converted_array" label="Convert Array" language="en" table="var__m_sys_hub_action_output_56d3809b47c4655002367562846d43b0">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>converted_array</element>
+            <help/>
+            <hint/>
+            <label>Convert Array</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_56d3809b47c4655002367562846d43b0</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2023-01-02 14:46:28</sys_created_on>
+            <sys_id>d1c400db47c4655002367562846d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Convert Array</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_56d3809b47c4655002367562846d43b0_converted_array_en</sys_update_name>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2023-01-02 14:46:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

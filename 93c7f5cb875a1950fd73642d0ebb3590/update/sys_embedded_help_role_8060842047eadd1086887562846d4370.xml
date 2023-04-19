@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="Primary Data Integration with SAP" name="sn_sap_data_int.look_up_service_master_user">0060842047eadd1086887562846d436e</role>
+        <role display_value="sn_sap_data_int.look_up_service_master_user" name="sn_sap_data_int.look_up_service_master_user">0060842047eadd1086887562846d436e</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>bcone</sys_created_by>
         <sys_created_on>2022-10-11 11:49:48</sys_created_on>

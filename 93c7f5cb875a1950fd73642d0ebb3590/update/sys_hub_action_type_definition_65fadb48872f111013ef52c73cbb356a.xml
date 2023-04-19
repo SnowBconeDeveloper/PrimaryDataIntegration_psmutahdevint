@@ -34,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_65fadb48872f111013ef52c73cbb356a</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:18:48</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:03:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -379,7 +379,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8585957d83e1a91067a211b6feaad38c_return_string_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-13 18:22:33</sys_updated_on>
         <url/>
@@ -762,7 +762,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_65fadb48872f111013ef52c73cbb356a_it_options_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-04-07 06:03:26</sys_updated_on>
         <url/>
@@ -787,7 +787,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65fadb48872f111013ef52c73cbb356a_it_options_string_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-13 18:22:34</sys_updated_on>
         <url/>
@@ -810,7 +810,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65fadb48872f111013ef52c73cbb356a___action_status___en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-11-29 07:32:33</sys_updated_on>
         <url/>
@@ -833,7 +833,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65fadb48872f111013ef52c73cbb356a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-11-29 07:32:33</sys_updated_on>
         <url/>
@@ -1233,7 +1233,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e985197d83e1a91067a211b6feaad300_return_string_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-13 18:22:35</sys_updated_on>
         <url/>
@@ -1616,7 +1616,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_867bd788872f111013ef52c73cbb358a_it_options_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-11-29 07:32:52</sys_updated_on>
         <url/>
@@ -1641,7 +1641,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_867bd788872f111013ef52c73cbb358a_it_options_string_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-13 18:22:36</sys_updated_on>
         <url/>
@@ -1664,7 +1664,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_867bd788872f111013ef52c73cbb358a___action_status___en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-11-29 07:32:52</sys_updated_on>
         <url/>
@@ -1687,7 +1687,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_867bd788872f111013ef52c73cbb358a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-11-29 07:32:53</sys_updated_on>
         <url/>

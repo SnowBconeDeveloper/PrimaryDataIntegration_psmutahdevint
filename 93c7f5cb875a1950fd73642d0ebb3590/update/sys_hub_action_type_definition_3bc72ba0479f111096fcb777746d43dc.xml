@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3bc72ba0479f111096fcb777746d43dc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate Purchase Organization Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3bc72ba0479f111096fcb777746d43dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 06:37:31</sys_updated_on>
+        <sys_updated_on>2023-04-17 12:02:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -618,11 +618,11 @@
         <sys_created_on>2022-11-19 13:10:06</sys_created_on>
         <sys_id>34c84dc947d3511096fcb777746d4344</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a8d76ba0479f111096fcb777746d431a_total_rows_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-19 13:10:06</sys_updated_on>
         <url/>
@@ -641,11 +641,11 @@
         <sys_created_on>2022-11-18 13:10:39</sys_created_on>
         <sys_id>7e4f3b6847df111096fcb777746d43d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a8d76ba0479f111096fcb777746d431a_purchasing_organisation_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:10:39</sys_updated_on>
         <url/>
@@ -1209,11 +1209,11 @@
         <sys_created_on>2023-01-03 13:26:55</sys_created_on>
         <sys_id>462c38a787482550a3e3cbb4dabb358f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3bc72ba0479f111096fcb777746d43dc_json_string_en</sys_update_name>
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-01-03 13:26:55</sys_updated_on>
         <url/>
@@ -1232,11 +1232,11 @@
         <sys_created_on>2022-11-18 11:34:29</sys_created_on>
         <sys_id>c6492324479f111096fcb777746d439f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3bc72ba0479f111096fcb777746d43dc_delimiter_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 11:34:29</sys_updated_on>
         <url/>
@@ -1257,11 +1257,11 @@
         <sys_created_on>2022-11-18 13:00:25</sys_created_on>
         <sys_id>34fc33e447df111096fcb777746d43be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3bc72ba0479f111096fcb777746d43dc___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:00:25</sys_updated_on>
         <url/>
@@ -1280,11 +1280,11 @@
         <sys_created_on>2022-11-18 13:00:26</sys_created_on>
         <sys_id>91fc73e447df111096fcb777746d434c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3bc72ba0479f111096fcb777746d43dc_purchasing_organisation_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:00:26</sys_updated_on>
         <url/>
@@ -1303,11 +1303,11 @@
         <sys_created_on>2022-11-18 13:00:22</sys_created_on>
         <sys_id>c4fc33e447df111096fcb777746d43b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3bc72ba0479f111096fcb777746d43dc___action_status___en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:00:22</sys_updated_on>
         <url/>
@@ -1326,11 +1326,11 @@
         <sys_created_on>2022-11-19 13:10:09</sys_created_on>
         <sys_id>d9c84dc947d3511096fcb777746d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3bc72ba0479f111096fcb777746d43dc_total_rows_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-19 13:10:09</sys_updated_on>
         <url/>
@@ -1931,11 +1931,11 @@
         <sys_created_on>2022-11-18 13:17:34</sys_created_on>
         <sys_id>58e0c4f847df111096fcb777746d438a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_73d0c4f847df111096fcb777746d4353_purchasing_organisation_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:34</sys_updated_on>
         <url/>
@@ -1954,11 +1954,11 @@
         <sys_created_on>2022-11-19 13:10:21</sys_created_on>
         <sys_id>a4d88dc947d3511096fcb777746d4398</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_73d0c4f847df111096fcb777746d4353_total_rows_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-19 13:10:21</sys_updated_on>
         <url/>
@@ -2522,11 +2522,11 @@
         <sys_created_on>2022-11-18 13:17:32</sys_created_on>
         <sys_id>73d0c4f847df111096fcb777746d4351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_31d0c4f847df111096fcb777746d4307_delimiter_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:32</sys_updated_on>
         <url/>
@@ -2545,11 +2545,11 @@
         <sys_created_on>2023-01-03 13:27:03</sys_created_on>
         <sys_id>b32cb8a787482550a3e3cbb4dabb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_31d0c4f847df111096fcb777746d4307_json_string_en</sys_update_name>
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-01-03 13:27:03</sys_updated_on>
         <url/>
@@ -2570,11 +2570,11 @@
         <sys_created_on>2022-11-18 13:17:36</sys_created_on>
         <sys_id>30e0c4f847df111096fcb777746d439b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31d0c4f847df111096fcb777746d4307___action_status___en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:36</sys_updated_on>
         <url/>
@@ -2593,11 +2593,11 @@
         <sys_created_on>2022-11-18 13:17:37</sys_created_on>
         <sys_id>45e0c4f847df111096fcb777746d43ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31d0c4f847df111096fcb777746d4307___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:37</sys_updated_on>
         <url/>
@@ -2616,11 +2616,11 @@
         <sys_created_on>2022-11-19 13:10:23</sys_created_on>
         <sys_id>7cd88dc947d3511096fcb777746d43bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31d0c4f847df111096fcb777746d4307_total_rows_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-19 13:10:23</sys_updated_on>
         <url/>
@@ -2639,11 +2639,11 @@
         <sys_created_on>2022-11-18 13:17:38</sys_created_on>
         <sys_id>95e0c4f847df111096fcb777746d43f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31d0c4f847df111096fcb777746d4307_purchasing_organisation_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:38</sys_updated_on>
         <url/>

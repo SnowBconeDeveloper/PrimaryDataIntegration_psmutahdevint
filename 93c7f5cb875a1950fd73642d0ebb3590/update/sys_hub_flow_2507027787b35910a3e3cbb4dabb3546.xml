@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_2507027787b35910a3e3cbb4dabb3546</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 11:09:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:04:58</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2507027787b35910a3e3cbb4dabb3546"/>
@@ -532,8 +532,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b9e767087c02d10a3e3cbb4dabb35d9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
         <action_type_parent/>
         <comment>Update load complete as true</comment>
         <display_text/>
@@ -563,7 +562,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
         <value>0</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -577,7 +576,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
         <value>1</value>
-        <variable display_value="Load Complete">58b97fa397cc2110215b35471153afd1</variable>
+        <variable display_value="">58b97fa397cc2110215b35471153afd1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -591,7 +590,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-13 08:05:41</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -605,69 +604,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1d08060c476c611002367562846d4396"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>1d08060c476c611002367562846d4396</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:03</sys_created_on>
-        <sys_id>5d08060c476c611002367562846d43a4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:17</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>1d08060c476c611002367562846d4396</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:03</sys_created_on>
-        <sys_id>d108060c476c611002367562846d43a5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-13 08:05:41</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>1d08060c476c611002367562846d4396</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:03</sys_created_on>
-        <sys_id>1108060c476c611002367562846d43a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>load_complete</field>
-        <id>1d08060c476c611002367562846d4396</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:03</sys_created_on>
-        <sys_id>9508060c476c611002367562846d43a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>1d08060c476c611002367562846d4396</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:03</sys_created_on>
-        <sys_id>5908060c476c611002367562846d43a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1d08060c476c611002367562846d4396"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d08060c476c611002367562846d4396"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1107,8 +1045,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8894f8fb4798211002367562846d43b9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
         <action_type_parent/>
         <comment>Update load complete as true</comment>
         <display_text/>
@@ -1138,7 +1075,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
         <value>0</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1152,7 +1089,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
         <value>1</value>
-        <variable display_value="Load Complete">58b97fa397cc2110215b35471153afd1</variable>
+        <variable display_value="">58b97fa397cc2110215b35471153afd1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1166,7 +1103,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1180,69 +1117,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-13 08:05:42</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9008060c476c611002367562846d4368"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>9008060c476c611002367562846d4368</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:30:59</sys_created_on>
-        <sys_id>2408060c476c611002367562846d436a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>9008060c476c611002367562846d4368</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:00</sys_created_on>
-        <sys_id>ac08060c476c611002367562846d436a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-13 08:05:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>9008060c476c611002367562846d4368</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:00</sys_created_on>
-        <sys_id>e808060c476c611002367562846d436a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>load_complete</field>
-        <id>9008060c476c611002367562846d4368</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:00</sys_created_on>
-        <sys_id>6008060c476c611002367562846d436b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>9008060c476c611002367562846d4368</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:31:00</sys_created_on>
-        <sys_id>2408060c476c611002367562846d436b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:31:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9008060c476c611002367562846d4368"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9008060c476c611002367562846d4368"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1543,8 +1419,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb036df4878ce910a3e3cbb4dabb354f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
@@ -1574,7 +1449,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 03:13:33</sys_updated_on>
         <value>1</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1588,7 +1463,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-16 17:37:52</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1602,7 +1477,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-10 03:36:51</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1616,57 +1491,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 12:10:34</sys_updated_on>
         <value/>
-        <variable display_value="Company Code Criteria">0dbbe3ad977fd110215b35471153af08</variable>
+        <variable display_value="">0dbbe3ad977fd110215b35471153af08</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=fa036df4878ce910a3e3cbb4dabb351e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>fa036df4878ce910a3e3cbb4dabb351e</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-16 10:05:43</sys_created_on>
-        <sys_id>cdcacbaf4714211002367562846d433b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>fa036df4878ce910a3e3cbb4dabb351e</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 03:13:33</sys_created_on>
-        <sys_id>76036df4878ce910a3e3cbb4dabb3520</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 03:36:51</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>fa036df4878ce910a3e3cbb4dabb351e</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 09:55:01</sys_created_on>
-        <sys_id>33eeb2b087c02d10a3e3cbb4dabb3512</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-16 17:37:52</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>fa036df4878ce910a3e3cbb4dabb351e</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 03:13:33</sys_created_on>
-        <sys_id>3a036df4878ce910a3e3cbb4dabb3520</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-26 03:13:33</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fa036df4878ce910a3e3cbb4dabb351e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa036df4878ce910a3e3cbb4dabb351e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -4464,7 +4290,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2507027787b35910a3e3cbb4dabb3546_connection_name_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-23 03:24:23</sys_updated_on>
         <url/>
@@ -4487,7 +4313,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2507027787b35910a3e3cbb4dabb3546_service_record_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-23 03:24:23</sys_updated_on>
         <url/>
@@ -4512,7 +4338,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2507027787b35910a3e3cbb4dabb3546_status_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-23 03:24:24</sys_updated_on>
         <url/>
@@ -4535,7 +4361,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2507027787b35910a3e3cbb4dabb3546_error_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-23 03:24:24</sys_updated_on>
         <url/>
@@ -5168,9 +4994,8 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=361b57e0c3a92510d10cf44ed4013199"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
-        <action_type_parent display_value="Look up Vendors">fa1574bd4717151086887562846d43cc</action_type_parent>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
+        <action_type_parent display_value="">fa1574bd4717151086887562846d43cc</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for Suppliers">3caef67087c02d10a3e3cbb4dabb3549</flow>
@@ -5199,7 +5024,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 09:53:49</sys_updated_on>
         <value>1</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5213,7 +5038,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 12:12:05</sys_updated_on>
         <value/>
-        <variable display_value="Company Code Criteria">0dbbe3ad977fd110215b35471153af08</variable>
+        <variable display_value="">0dbbe3ad977fd110215b35471153af08</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5227,7 +5052,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-10 06:53:49</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5241,57 +5066,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-16 18:36:27</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=46ae3a7087c02d10a3e3cbb4dabb3572"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>46ae3a7087c02d10a3e3cbb4dabb3572</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-16 13:09:13</sys_created_on>
-        <sys_id>81c4336747d4211002367562846d43c7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>46ae3a7087c02d10a3e3cbb4dabb3572</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 09:53:49</sys_created_on>
-        <sys_id>1eae3a7087c02d10a3e3cbb4dabb3573</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 06:53:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>46ae3a7087c02d10a3e3cbb4dabb3572</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 10:15:37</sys_created_on>
-        <sys_id>65a38fb487c02d10a3e3cbb4dabb35e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-16 18:36:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>46ae3a7087c02d10a3e3cbb4dabb3572</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-12-26 09:53:49</sys_created_on>
-        <sys_id>deae3a7087c02d10a3e3cbb4dabb3573</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-26 09:53:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=46ae3a7087c02d10a3e3cbb4dabb3572"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=46ae3a7087c02d10a3e3cbb4dabb3572"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5733,9 +5509,8 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=66ae3a7087c02d10a3e3cbb4dabb359b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
-        <action_type_parent display_value="Look up Vendors">fa1574bd4717151086887562846d43cc</action_type_parent>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
+        <action_type_parent display_value="">fa1574bd4717151086887562846d43cc</action_type_parent>
         <comment>Update load complete as true</comment>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for Suppliers">3caef67087c02d10a3e3cbb4dabb3549</flow>
@@ -5764,7 +5539,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
         <value>1</value>
-        <variable display_value="Load Complete">58b97fa397cc2110215b35471153afd1</variable>
+        <variable display_value="">58b97fa397cc2110215b35471153afd1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5778,7 +5553,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-13 08:06:54</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5792,7 +5567,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5806,69 +5581,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
         <value>0</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=89198a4c476c611002367562846d4362"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>89198a4c476c611002367562846d4362</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:41</sys_created_on>
-        <sys_id>1d198a4c476c611002367562846d4364</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>89198a4c476c611002367562846d4362</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:42</sys_created_on>
-        <sys_id>95198a4c476c611002367562846d4365</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-13 08:06:54</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>89198a4c476c611002367562846d4362</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:42</sys_created_on>
-        <sys_id>d1198a4c476c611002367562846d4365</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>load_complete</field>
-        <id>89198a4c476c611002367562846d4362</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:42</sys_created_on>
-        <sys_id>59198a4c476c611002367562846d4365</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>89198a4c476c611002367562846d4362</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:42</sys_created_on>
-        <sys_id>1d198a4c476c611002367562846d4365</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=89198a4c476c611002367562846d4362"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=89198a4c476c611002367562846d4362"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -6144,9 +5858,8 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=eaaff4f747d8211002367562846d437b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">06757cbd4717151086887562846d43ee</action_type>
-        <action_type_parent display_value="Look up Vendors">fa1574bd4717151086887562846d43cc</action_type_parent>
+        <action_type display_value="">06757cbd4717151086887562846d43ee</action_type>
+        <action_type_parent display_value="">fa1574bd4717151086887562846d43cc</action_type_parent>
         <comment>Update load complete as true</comment>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for Suppliers">3caef67087c02d10a3e3cbb4dabb3549</flow>
@@ -6175,7 +5888,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
         <value>0</value>
-        <variable display_value="Row Count">7775bcbd4717151086887562846d4397</variable>
+        <variable display_value="">7775bcbd4717151086887562846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -6189,7 +5902,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
         <value>1</value>
-        <variable display_value="Load Complete">58b97fa397cc2110215b35471153afd1</variable>
+        <variable display_value="">58b97fa397cc2110215b35471153afd1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -6203,7 +5916,7 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-03-13 08:06:54</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">1f757cbd4717151086887562846d43f1</variable>
+        <variable display_value="">1f757cbd4717151086887562846d43f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -6217,69 +5930,8 @@
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">a775bcbd4717151086887562846d4336</variable>
+        <variable display_value="">a775bcbd4717151086887562846d4336</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ed198a4c476c611002367562846d4391"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>ed198a4c476c611002367562846d4391</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:43</sys_created_on>
-        <sys_id>69198a4c476c611002367562846d4393</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:55:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8dbbe3ad6e7fd11058358c348480e500","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500":{"$COCollectionField":[{"item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{fa211157-7003-46c7-be85-aede4d9db835.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{e49929ab-1188-4e86-95fe-5d74ddbfdea0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{8fb2767a-45d9-4171-b5cd-fc8bf7a4d5f0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{a78804dc-05c1-4dd1-bd77-d125fd84a2b4.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8dbbe3ad6e7fd11058358c348480e500.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"04c53349-a875-498d-8cc8-6c431e2cf6d9\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8dbbe3ad6e7fd11058358c348480e500\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d7fb4f6d-e50f-4610-b5e1-e245f86dd173\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>ed198a4c476c611002367562846d4391</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:43</sys_created_on>
-        <sys_id>ed198a4c476c611002367562846d4393</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-13 08:06:54</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>ed198a4c476c611002367562846d4391</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:43</sys_created_on>
-        <sys_id>2d198a4c476c611002367562846d4393</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value>{{flow_variable.full_load}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>load_complete</field>
-        <id>ed198a4c476c611002367562846d4391</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:43</sys_created_on>
-        <sys_id>a1198a4c476c611002367562846d4394</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>ed198a4c476c611002367562846d4391</id>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-01-17 18:35:43</sys_created_on>
-        <sys_id>65198a4c476c611002367562846d4394</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:35:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_06757cbd4717151086887562846d43ee</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ed198a4c476c611002367562846d4391"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed198a4c476c611002367562846d4391"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -9064,7 +8716,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3caef67087c02d10a3e3cbb4dabb3549_service_record_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 09:53:44</sys_updated_on>
         <url/>
@@ -9087,7 +8739,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3caef67087c02d10a3e3cbb4dabb3549_connection_name_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 09:53:44</sys_updated_on>
         <url/>
@@ -9112,7 +8764,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3caef67087c02d10a3e3cbb4dabb3549_error_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 09:53:45</sys_updated_on>
         <url/>
@@ -9135,7 +8787,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3caef67087c02d10a3e3cbb4dabb3549_status_en</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-26 09:53:45</sys_updated_on>
         <url/>

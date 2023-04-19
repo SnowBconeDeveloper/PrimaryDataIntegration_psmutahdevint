@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="purchasing_organisation" label="Purchasing Organisation" language="en" table="var__m_sys_hub_step_ext_output_73d0c4f847df111096fcb777746d4353">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>purchasing_organisation</element>
+            <help/>
+            <hint/>
+            <label>Purchasing Organisation</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_73d0c4f847df111096fcb777746d4353</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Midhat</sys_created_by>
+            <sys_created_on>2022-11-18 13:17:34</sys_created_on>
+            <sys_id>58e0c4f847df111096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchasing Organisation</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_73d0c4f847df111096fcb777746d4353_purchasing_organisation_en</sys_update_name>
+            <sys_updated_by>Midhat</sys_updated_by>
+            <sys_updated_on>2022-11-18 13:17:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

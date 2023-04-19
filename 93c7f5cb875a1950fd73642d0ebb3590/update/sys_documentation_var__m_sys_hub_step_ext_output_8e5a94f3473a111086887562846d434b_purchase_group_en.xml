@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="purchase_group" label="Purchase Group" language="en" table="var__m_sys_hub_step_ext_output_8e5a94f3473a111086887562846d434b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>purchase_group</element>
+            <help/>
+            <hint/>
+            <label>Purchase Group</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_8e5a94f3473a111086887562846d434b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-15 13:59:20</sys_created_on>
+            <sys_id>b2adec3f47cbd15096fcb777746d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchase Group</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8e5a94f3473a111086887562846d434b_purchase_group_en</sys_update_name>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-15 13:59:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

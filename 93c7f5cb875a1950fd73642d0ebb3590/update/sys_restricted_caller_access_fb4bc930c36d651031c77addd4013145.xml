@@ -4,7 +4,7 @@
         <operation>execute</operation>
         <rca_type>real_rca</rca_type>
         <source/>
-        <source_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</source_scope>
+        <source_scope display_value="Sourcing and Procurement Operations Integration with SAP">1cc68aba8796d1102a18b846dabb3551</source_scope>
         <source_table/>
         <source_type>5</source_type>
         <status>2</status>
