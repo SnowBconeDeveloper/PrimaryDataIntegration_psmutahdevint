@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3f4f5a947f25d1086887562846d43eb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate FX Exchange Rate Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a3f4f5a947f25d1086887562846d43eb</sys_update_name>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-18 06:42:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 16:00:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -629,7 +629,7 @@
         <sys_created_on>2022-11-15 08:01:51</sys_created_on>
         <sys_id>0edb1fa34747d15096fcb777746d434f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
+        <sys_name>FX Data</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -652,7 +652,7 @@
         <sys_created_on>2022-11-15 08:10:04</sys_created_on>
         <sys_id>aabd5f274747d15096fcb777746d4389</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1220,7 +1220,7 @@
         <sys_created_on>2022-11-15 08:00:40</sys_created_on>
         <sys_id>899bd7a34747d15096fcb777746d4389</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1243,7 +1243,7 @@
         <sys_created_on>2022-10-27 09:08:58</sys_created_on>
         <sys_id>8c0579a947f25d1086887562846d4338</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1268,7 +1268,7 @@
         <sys_created_on>2022-10-27 09:09:02</sys_created_on>
         <sys_id>0d0579a947f25d1086887562846d438c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1291,7 +1291,7 @@
         <sys_created_on>2022-11-15 08:11:18</sys_created_on>
         <sys_id>280ed3674747d15096fcb777746d43c2</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1314,7 +1314,7 @@
         <sys_created_on>2022-11-15 08:03:12</sys_created_on>
         <sys_id>422c53e34747d15096fcb777746d4353</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>FX Data</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1337,7 +1337,7 @@
         <sys_created_on>2022-10-27 09:09:03</sys_created_on>
         <sys_id>510579a947f25d1086887562846d43b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1979,7 +1979,7 @@
         <sys_created_on>2022-11-15 08:03:50</sys_created_on>
         <sys_id>1b4c17e34747d15096fcb777746d438a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>FX Data</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2002,7 +2002,7 @@
         <sys_created_on>2022-11-15 08:10:24</sys_created_on>
         <sys_id>a7cddf274747d15096fcb777746d43a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2570,7 +2570,7 @@
         <sys_created_on>2022-11-15 08:03:49</sys_created_on>
         <sys_id>4f4c17e34747d15096fcb777746d4377</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2593,7 +2593,7 @@
         <sys_created_on>2022-10-27 09:16:48</sys_created_on>
         <sys_id>4fc6352d47f25d1086887562846d43cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2618,7 +2618,7 @@
         <sys_created_on>2022-11-15 08:11:49</sys_created_on>
         <sys_id>442ed7674747d15096fcb777746d4302</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2641,7 +2641,7 @@
         <sys_created_on>2022-10-27 09:16:50</sys_created_on>
         <sys_id>9bc6752d47f25d1086887562846d4325</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2664,7 +2664,7 @@
         <sys_created_on>2022-10-27 09:16:50</sys_created_on>
         <sys_id>9fc6752d47f25d1086887562846d431e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2687,7 +2687,7 @@
         <sys_created_on>2022-11-15 08:03:52</sys_created_on>
         <sys_id>ff4c17e34747d15096fcb777746d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>FX Data</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>

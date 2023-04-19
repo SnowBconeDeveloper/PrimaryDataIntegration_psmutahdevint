@@ -25,7 +25,6 @@ If you find yourself unable to import your repository due to the presence of fil
    2.3 Re-import the application from source control
    Currently listed dependencies:
    * Finance - ERP Integration
+   * System Import Sets
    * Currency support (costs and pricing)
    * Finance Common Architecture
-   * System Import Sets
-   * FX Currency

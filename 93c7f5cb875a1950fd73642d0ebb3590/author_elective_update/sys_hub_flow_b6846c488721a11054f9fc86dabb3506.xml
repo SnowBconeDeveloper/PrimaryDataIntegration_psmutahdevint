@@ -85,7 +85,7 @@
         <reverted_from/>
         <source>8c150fadc3ade510d10cf44ed40131bb</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2023-03-13 04:18:52</sys_created_on>
         <sys_id>5a64daa1c32de510d10cf44ed4013190</sys_id>

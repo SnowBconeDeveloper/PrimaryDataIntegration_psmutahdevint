@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="__action_status__" label="Action Status" language="en" table="var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>__action_status__</element>
+            <help/>
+            <hint/>
+            <label>Action Status</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna</sys_created_by>
+            <sys_created_on>2023-04-03 03:45:34</sys_created_on>
+            <sys_id>1b26521cc382219031c77addd40131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Action Status</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c___action_status___en</sys_update_name>
+            <sys_updated_by>Krishna</sys_updated_by>
+            <sys_updated_on>2023-04-03 03:45:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

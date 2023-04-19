@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_4cfe3fd84758a110f41e5d22736d43a8</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-05 13:51:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:07:36</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4cfe3fd84758a110f41e5d22736d43a8"/>
@@ -563,8 +563,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
-        <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
+        <action_type display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action_type>
+        <action_type_parent display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child FX Rates S4Hana">4cfe3fd84758a110f41e5d22736d43a8</flow>
@@ -812,9 +812,8 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2dfe7fd84758a110f41e5d22736d43dd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child FX Rates S4Hana">4cfe3fd84758a110f41e5d22736d43a8</flow>
@@ -843,21 +842,8 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:33:28</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=38fe7fd84758a110f41e5d22736d433e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>38fe7fd84758a110f41e5d22736d433e</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 11:33:28</sys_created_on>
-        <sys_id>49fe7fd84758a110f41e5d22736d433f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 11:33:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=38fe7fd84758a110f41e5d22736d433e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=38fe7fd84758a110f41e5d22736d433e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -912,8 +898,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=49fe7fd84758a110f41e5d22736d4343"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
+        <action_type display_value="">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
@@ -943,7 +928,7 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
         <value>50ff17a847f31d10f41e5d22736d43d3</value>
-        <variable display_value="RFC">8d39f16b77bf0110c2f897228a1061d3</variable>
+        <variable display_value="">8d39f16b77bf0110c2f897228a1061d3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -957,7 +942,7 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
         <value>a68ec12bdb3d90100fbb3764e29619ca</value>
-        <variable display_value="Connection Alias">c939f16b77bf0110c2f897228a1061cb</variable>
+        <variable display_value="">c939f16b77bf0110c2f897228a1061cb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -971,69 +956,8 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:12:17</sys_updated_on>
         <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66818533-f400-426d-829e-2d4464f2dfbd"}}</value>
-        <variable display_value="Response">5645f0a477001110c2f897228a106183</variable>
+        <variable display_value="">5645f0a477001110c2f897228a106183</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=59f684644798a110f41e5d22736d430b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>59f684644798a110f41e5d22736d430b</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:08:26</sys_created_on>
-        <sys_id>11f684644798a110f41e5d22736d430e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>59f684644798a110f41e5d22736d430b</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:08:26</sys_created_on>
-        <sys_id>59f684644798a110f41e5d22736d430d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>59f684644798a110f41e5d22736d430b</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:08:26</sys_created_on>
-        <sys_id>95f684644798a110f41e5d22736d430e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>{{c3a91860-b034-4705-9196-ab6360d54e0f.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>59f684644798a110f41e5d22736d430b</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:08:26</sys_created_on>
-        <sys_id>d1f684644798a110f41e5d22736d430e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>59f684644798a110f41e5d22736d430b</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:08:26</sys_created_on>
-        <sys_id>59f684644798a110f41e5d22736d430e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:08:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>IT_OPTIONS={{6067b5ff-66d6-45ec-a741-64cedc0b1c8f.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=59f684644798a110f41e5d22736d430b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=59f684644798a110f41e5d22736d430b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3700,8 +3624,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
-        <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
+        <action_type display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action_type>
+        <action_type_parent display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child FX Rates S4Hana">5bd748a44798a110f41e5d22736d432b</flow>
@@ -3848,9 +3772,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=59e7c8a44798a110f41e5d22736d431f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child FX Rates S4Hana">5bd748a44798a110f41e5d22736d432b</flow>
@@ -3879,28 +3802,14 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=64e788a44798a110f41e5d22736d4386"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>64e788a44798a110f41e5d22736d4386</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>a4e788a44798a110f41e5d22736d4387</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=64e788a44798a110f41e5d22736d4386"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=64e788a44798a110f41e5d22736d4386"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
-        <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
+        <action_type display_value="">bc39f16b77bf0110c2f897228a1061c7</action_type>
+        <action_type_parent display_value="">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child FX Rates S4Hana">5bd748a44798a110f41e5d22736d432b</flow>
@@ -3929,7 +3838,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
         <value>a68ec12bdb3d90100fbb3764e29619ca</value>
-        <variable display_value="Connection Alias">c939f16b77bf0110c2f897228a1061cb</variable>
+        <variable display_value="">c939f16b77bf0110c2f897228a1061cb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -3943,7 +3852,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
         <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66818533-f400-426d-829e-2d4464f2dfbd"}}</value>
-        <variable display_value="Response">5645f0a477001110c2f897228a106183</variable>
+        <variable display_value="">5645f0a477001110c2f897228a106183</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -3957,69 +3866,8 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
         <value>50ff17a847f31d10f41e5d22736d43d3</value>
-        <variable display_value="RFC">8d39f16b77bf0110c2f897228a1061d3</variable>
+        <variable display_value="">8d39f16b77bf0110c2f897228a1061d3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=68e788a44798a110f41e5d22736d43a8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>68e788a44798a110f41e5d22736d43a8</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>a0e788a44798a110f41e5d22736d43aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>68e788a44798a110f41e5d22736d43a8</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>ece788a44798a110f41e5d22736d43a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>68e788a44798a110f41e5d22736d43a8</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>28e788a44798a110f41e5d22736d43aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>{{c3a91860-b034-4705-9196-ab6360d54e0f.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>68e788a44798a110f41e5d22736d43a8</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>64e788a44798a110f41e5d22736d43aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>68e788a44798a110f41e5d22736d43a8</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:12:29</sys_created_on>
-        <sys_id>e8e788a44798a110f41e5d22736d43aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:12:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>IT_OPTIONS={{6067b5ff-66d6-45ec-a741-64cedc0b1c8f.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=68e788a44798a110f41e5d22736d43a8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=68e788a44798a110f41e5d22736d43a8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">

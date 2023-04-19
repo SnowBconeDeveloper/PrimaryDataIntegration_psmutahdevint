@@ -2,7 +2,7 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>true</active>
         <erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
-        <flow display_value="Fetch plant addresses from SAP S4Hana">b57d6be19714a510f5be33271153af03</flow>
+        <flow display_value="Fetch Plant Addresses from SAP S4Hana">b57d6be19714a510f5be33271153af03</flow>
         <import_set_tables>sn_sap_data_int_plant_add_stg</import_set_tables>
         <name>Plant Address Master Data From SAP</name>
         <order>110</order>

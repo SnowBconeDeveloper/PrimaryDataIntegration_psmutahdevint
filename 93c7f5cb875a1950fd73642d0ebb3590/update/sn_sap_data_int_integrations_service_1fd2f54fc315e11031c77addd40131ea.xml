@@ -2,7 +2,7 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>true</active>
         <erp_source_configuration display_value="SAP ECC">b8277d61738213008f12d9be2bf6a784</erp_source_configuration>
-        <flow display_value="Fetch plant addresses from SAP ECC">14b2ff3c475b111086887562846d43a4</flow>
+        <flow display_value="Fetch Plant Addresses from SAP ECC">14b2ff3c475b111086887562846d43a4</flow>
         <import_set_tables>sn_sap_data_int_plant_add_stg</import_set_tables>
         <name>Plant Address Master Data From SAP</name>
         <order>110</order>

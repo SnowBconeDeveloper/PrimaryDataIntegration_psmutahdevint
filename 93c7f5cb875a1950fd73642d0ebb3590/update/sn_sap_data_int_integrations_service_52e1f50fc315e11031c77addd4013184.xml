@@ -2,7 +2,7 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>false</active>
         <erp_source_configuration display_value="SAP ECC">b8277d61738213008f12d9be2bf6a784</erp_source_configuration>
-        <flow display_value="Fetch payment terms from SAP ECC">3faca11d87fa195093264085dabb35f9</flow>
+        <flow display_value="Fetch Payment Terms from SAP ECC">3faca11d87fa195093264085dabb35f9</flow>
         <import_set_tables>sn_sap_data_int_pay_term_stg</import_set_tables>
         <name>Payment Terms</name>
         <order>80</order>

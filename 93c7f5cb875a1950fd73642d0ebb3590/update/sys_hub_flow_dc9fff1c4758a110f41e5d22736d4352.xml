@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_dc9fff1c4758a110f41e5d22736d4352</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-12 13:18:13</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:10:29</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=dc9fff1c4758a110f41e5d22736d4352"/>
@@ -621,9 +621,8 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=604408d197112910f5be33271153afb9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates S4Hana">dc9fff1c4758a110f41e5d22736d4352</flow>
@@ -652,21 +651,8 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:14</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=699f335c4758a110f41e5d22736d4341"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>699f335c4758a110f41e5d22736d4341</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 11:36:14</sys_created_on>
-        <sys_id>a99f335c4758a110f41e5d22736d4342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 11:36:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=699f335c4758a110f41e5d22736d4341"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=699f335c4758a110f41e5d22736d4341"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -733,8 +719,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d9f335c4758a110f41e5d22736d4327"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
+        <action_type display_value="">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
@@ -764,7 +749,7 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
         <value>50ff17a847f31d10f41e5d22736d43d3</value>
-        <variable display_value="RFC">8d39f16b77bf0110c2f897228a1061d3</variable>
+        <variable display_value="">8d39f16b77bf0110c2f897228a1061d3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -778,7 +763,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-11 16:49:29</sys_updated_on>
         <value>{"children":[],"type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66818533-f400-426d-829e-2d4464f2dfbd"}}</value>
-        <variable display_value="Response">5645f0a477001110c2f897228a106183</variable>
+        <variable display_value="">5645f0a477001110c2f897228a106183</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -792,69 +777,8 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
         <value>a68ec12bdb3d90100fbb3764e29619ca</value>
-        <variable display_value="Connection Alias">c939f16b77bf0110c2f897228a1061cb</variable>
+        <variable display_value="">c939f16b77bf0110c2f897228a1061cb</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=778fc0ec4798a110f41e5d22736d4360"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>778fc0ec4798a110f41e5d22736d4360</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:46:01</sys_created_on>
-        <sys_id>fb8fc0ec4798a110f41e5d22736d4362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>778fc0ec4798a110f41e5d22736d4360</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:46:01</sys_created_on>
-        <sys_id>378fc0ec4798a110f41e5d22736d4362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>778fc0ec4798a110f41e5d22736d4360</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:46:01</sys_created_on>
-        <sys_id>738fc0ec4798a110f41e5d22736d4363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>{{948c6461-d757-412f-bcdc-49b243e76815.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>778fc0ec4798a110f41e5d22736d4360</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:46:01</sys_created_on>
-        <sys_id>bf8fc0ec4798a110f41e5d22736d4362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>778fc0ec4798a110f41e5d22736d4360</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:46:01</sys_created_on>
-        <sys_id>378fc0ec4798a110f41e5d22736d4363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:46:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>IT_OPTIONS={{ed5b120a-d4ed-404c-a429-0c376d96be44.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=778fc0ec4798a110f41e5d22736d4360"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=778fc0ec4798a110f41e5d22736d4360"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -972,8 +896,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
-        <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
+        <action_type display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action_type>
+        <action_type_parent display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates S4Hana">dc9fff1c4758a110f41e5d22736d4352</flow>
@@ -3750,7 +3674,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_05e18c1197112910f5be33271153af7e</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-02-27 12:44:32</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3833,7 +3757,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_0de18c1197112910f5be33271153af6d</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-02-27 12:44:32</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3916,7 +3840,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_209fff1c4758a110f41e5d22736d4364</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3999,7 +3923,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_249fff1c4758a110f41e5d22736d435e</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -4082,7 +4006,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_2c9fff1c4758a110f41e5d22736d4369</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -4165,7 +4089,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_649fff1c4758a110f41e5d22736d435a</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -4248,7 +4172,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_a09fff1c4758a110f41e5d22736d4361</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -4331,7 +4255,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_ac9fff1c4758a110f41e5d22736d4366</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -4364,7 +4288,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_dc9fff1c4758a110f41e5d22736d4352_connection_name_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:11</sys_updated_on>
         <url/>
@@ -4387,7 +4311,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_dc9fff1c4758a110f41e5d22736d4352_service_record_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:11</sys_updated_on>
         <url/>
@@ -4412,7 +4336,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_dc9fff1c4758a110f41e5d22736d4352_status_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:11</sys_updated_on>
         <url/>
@@ -4435,7 +4359,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_dc9fff1c4758a110f41e5d22736d4352_error_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 11:36:11</sys_updated_on>
         <url/>
@@ -5008,8 +4932,8 @@ Please refer the flow context logs.</value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
-        <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
+        <action_type display_value="Segregate FX Exchange Rate Response">b2c6352d47f25d1086887562846d43c6</action_type>
+        <action_type_parent display_value="Segregate FX Exchange Rate Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates S4Hana">2bff402047d8a110f41e5d22736d43c6</flow>
@@ -5329,9 +5253,8 @@ Please refer the flow context logs.</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a255ad497a92510f5be33271153afc2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
-        <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
+        <action_type display_value="">bc39f16b77bf0110c2f897228a1061c7</action_type>
+        <action_type_parent display_value="">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates S4Hana">2bff402047d8a110f41e5d22736d43c6</flow>
@@ -5360,7 +5283,7 @@ Please refer the flow context logs.</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
         <value>a68ec12bdb3d90100fbb3764e29619ca</value>
-        <variable display_value="Connection Alias">c939f16b77bf0110c2f897228a1061cb</variable>
+        <variable display_value="">c939f16b77bf0110c2f897228a1061cb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5374,7 +5297,7 @@ Please refer the flow context logs.</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-11 16:50:03</sys_updated_on>
         <value>{"children":[],"type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66818533-f400-426d-829e-2d4464f2dfbd"}}</value>
-        <variable display_value="Response">5645f0a477001110c2f897228a106183</variable>
+        <variable display_value="">5645f0a477001110c2f897228a106183</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5388,76 +5311,14 @@ Please refer the flow context logs.</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
         <value>50ff17a847f31d10f41e5d22736d43d3</value>
-        <variable display_value="RFC">8d39f16b77bf0110c2f897228a1061d3</variable>
+        <variable display_value="">8d39f16b77bf0110c2f897228a1061d3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6100d02047d8a110f41e5d22736d435f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>6100d02047d8a110f41e5d22736d435f</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:03</sys_created_on>
-        <sys_id>a900d02047d8a110f41e5d22736d4360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>6100d02047d8a110f41e5d22736d435f</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:03</sys_created_on>
-        <sys_id>e500d02047d8a110f41e5d22736d4360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>6100d02047d8a110f41e5d22736d435f</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:03</sys_created_on>
-        <sys_id>2100d02047d8a110f41e5d22736d4361</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>{{948c6461-d757-412f-bcdc-49b243e76815.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>6100d02047d8a110f41e5d22736d435f</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:03</sys_created_on>
-        <sys_id>6d00d02047d8a110f41e5d22736d4360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>6100d02047d8a110f41e5d22736d435f</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:03</sys_created_on>
-        <sys_id>e100d02047d8a110f41e5d22736d4361</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_bc39f16b77bf0110c2f897228a1061c7</table>
-        <value>IT_OPTIONS={{ed5b120a-d4ed-404c-a429-0c376d96be44.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6100d02047d8a110f41e5d22736d435f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6100d02047d8a110f41e5d22736d435f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates S4Hana">2bff402047d8a110f41e5d22736d43c6</flow>
@@ -5486,21 +5347,8 @@ Please refer the flow context logs.</value>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:48:01</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8100d02047d8a110f41e5d22736d431a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>8100d02047d8a110f41e5d22736d431a</id>
-        <sys_created_by>akash</sys_created_by>
-        <sys_created_on>2023-01-06 12:48:01</sys_created_on>
-        <sys_id>c100d02047d8a110f41e5d22736d431b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-01-06 12:48:01</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8100d02047d8a110f41e5d22736d431a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8100d02047d8a110f41e5d22736d431a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -8250,7 +8098,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_0400902047d8a110f41e5d22736d4372</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8333,7 +8181,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_0800902047d8a110f41e5d22736d436c</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8416,7 +8264,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_8000902047d8a110f41e5d22736d4375</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8499,7 +8347,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_8400902047d8a110f41e5d22736d436f</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8582,7 +8430,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_8800902047d8a110f41e5d22736d4369</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8665,7 +8513,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_8c00902047d8a110f41e5d22736d4365</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8748,7 +8596,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_c9548cd197112910f5be33271153af2a</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-02-27 12:55:11</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8831,7 +8679,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_hub_flow_variable_fc548cd197112910f5be33271153af25</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-02-27 12:55:10</sys_updated_on>
         <table_reference>false</table_reference>
@@ -8864,7 +8712,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2bff402047d8a110f41e5d22736d43c6_service_record_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:56</sys_updated_on>
         <url/>
@@ -8887,7 +8735,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2bff402047d8a110f41e5d22736d43c6_connection_name_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:56</sys_updated_on>
         <url/>
@@ -8912,7 +8760,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2bff402047d8a110f41e5d22736d43c6_error_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:56</sys_updated_on>
         <url/>
@@ -8935,7 +8783,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2bff402047d8a110f41e5d22736d43c6_status_en</sys_update_name>
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2023-01-06 12:47:56</sys_updated_on>
         <url/>

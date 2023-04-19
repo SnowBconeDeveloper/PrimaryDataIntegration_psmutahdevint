@@ -42,7 +42,7 @@
         <element attributes="edge_encryption_enabled=true" label="Lock Indicator for Plan Primary Costs" max_length="40" name="lock_indicator_for_plan_primary_costs" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Lock Indicator for Plan Secondary Costs" max_length="40" name="lock_indicator_for_plan_secondary_costs" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Logical System" max_length="40" name="logical_system" type="string"/>
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name 1" max_length="40" name="name_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name 2" max_length="40" name="name_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name 3" max_length="40" name="name_3" type="string"/>

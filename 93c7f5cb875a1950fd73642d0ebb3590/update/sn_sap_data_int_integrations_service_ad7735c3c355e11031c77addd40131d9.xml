@@ -2,7 +2,7 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>true</active>
         <erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
-        <flow display_value="Fetch FX rates from SAP S4Hana">e127ecf2c34ee51031c77addd401318d</flow>
+        <flow display_value="Fetch FX Rates from SAP S4Hana">e127ecf2c34ee51031c77addd401318d</flow>
         <import_set_tables>sn_sap_data_int_fx_rate_stg</import_set_tables>
         <name>FX Exchange Data</name>
         <order>30</order>

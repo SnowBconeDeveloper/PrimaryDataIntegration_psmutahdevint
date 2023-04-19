@@ -44,7 +44,7 @@
         <update_guid_history>85152f2eb88aad109f998f6157d79ed1:14050320,add4ab2eac8aad1082a89d85eb79b767:1945997364,4b9948790202e9102667b838d54cfb34:0,0e96c8b15b02e9108e025888b78333a6:-713941161,ffeafbed0f8ea910fbcfd4b30fdc5310:0,35b5f3a5928ea91056ee250bb992f399:-713941161,7a09dc684ec6a51030e7a7b2a2801045:0,9bf210206cc6a5109537b92b5370c9d5:-713941161,871a406c7946a510404f45f31e099f61:0,636588243046a5101d017a735bed0b14:-713941161,b8ee73184f06a5102d74c2ec3c336549:0,0983977890f9655037a594f0b1998d6b:0,858b473850b96550dc60c6453f9f4ba9:0,ce6e750bcf112110b91d32731ec2f4a8:0</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SAP ECC">2b2562db838261502aac11b6feaad3d8</sys_audit_delete>
+        <sys_audit_delete display_value="">2b2562db838261502aac11b6feaad3d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2023-04-12 12:32:53</sys_created_on>

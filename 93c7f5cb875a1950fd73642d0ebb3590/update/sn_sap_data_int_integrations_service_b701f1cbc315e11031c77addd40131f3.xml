@@ -2,7 +2,7 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>false</active>
         <erp_source_configuration display_value="SAP ECC">b8277d61738213008f12d9be2bf6a784</erp_source_configuration>
-        <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
+        <flow display_value="Fetch FX Rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <import_set_tables>sn_sap_data_int_fx_rate_stg</import_set_tables>
         <name>FX Exchange Data</name>
         <order>30</order>

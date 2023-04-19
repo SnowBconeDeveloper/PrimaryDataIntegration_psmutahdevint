@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b80010c283eda91067a211b6feaad3e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Parallel Processor Job for GL Account Text Data from SAP ECC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_b80010c283eda91067a211b6feaad3e0</sys_update_name>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-18 07:18:19</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 16:01:58</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b80010c283eda91067a211b6feaad3e0"/>
@@ -1058,9 +1058,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e0050c283eda91067a211b6feaad3fe"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
-        <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
+        <action_type display_value="">878053f3c7043010678d208c95c26025</action_type>
+        <action_type_parent display_value="">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Processor Job for GL Account Text Data from SAP ECC">b80010c283eda91067a211b6feaad3e0</flow>
@@ -1089,7 +1088,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2023-04-18 07:17:29</sys_updated_on>
         <value>{"children":[],"type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
-        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+        <variable display_value="">078053f3c7043010678d208c95c26045</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1103,7 +1102,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 07:57:27</sys_updated_on>
         <value>fb2b979947cfd51086887562846d435f</value>
-        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+        <variable display_value="">478053f3c7043010678d208c95c2602f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1117,69 +1116,8 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:05:38</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+        <variable display_value="">4b8053f3c7043010678d208c95c26026</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=860050c283eda91067a211b6feaad3f4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>860050c283eda91067a211b6feaad3f4</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:27</sys_created_on>
-        <sys_id>460050c283eda91067a211b6feaad3f6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:05:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{subflow.connection_credential_alias}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>860050c283eda91067a211b6feaad3f4</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:27</sys_created_on>
-        <sys_id>820050c283eda91067a211b6feaad3f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 07:57:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>860050c283eda91067a211b6feaad3f4</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:27</sys_created_on>
-        <sys_id>8e0050c283eda91067a211b6feaad3f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 07:57:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{5997cd25-219c-4e40-9395-d6311be835e9.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>860050c283eda91067a211b6feaad3f4</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:27</sys_created_on>
-        <sys_id>0a0050c283eda91067a211b6feaad3f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 07:57:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>860050c283eda91067a211b6feaad3f4</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:27</sys_created_on>
-        <sys_id>ca0050c283eda91067a211b6feaad3f6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:05:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{71f28c61-3094-43ad-ae84-f156fbde8dd1.it_options_string}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=860050c283eda91067a211b6feaad3f4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=860050c283eda91067a211b6feaad3f4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1246,9 +1184,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=960090c283eda91067a211b6feaad306"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Processor Job for GL Account Text Data from SAP ECC">b80010c283eda91067a211b6feaad3e0</flow>
@@ -1277,21 +1214,8 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 07:57:26</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bd0050c283eda91067a211b6feaad3c5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>bd0050c283eda91067a211b6feaad3c5</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 07:57:26</sys_created_on>
-        <sys_id>790050c283eda91067a211b6feaad3c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 07:57:26</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bd0050c283eda91067a211b6feaad3c5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bd0050c283eda91067a211b6feaad3c5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -2604,7 +2528,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:59:22</sys_created_on>
         <sys_id>4a701cc283eda91067a211b6feaad3e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection &amp; Credential Alias</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2627,7 +2551,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:23</sys_created_on>
         <sys_id>910050c283eda91067a211b6feaad342</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Row Count</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2650,7 +2574,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:23</sys_created_on>
         <sys_id>950050c283eda91067a211b6feaad33f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2673,7 +2597,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:24</sys_created_on>
         <sys_id>990050c283eda91067a211b6feaad347</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ERP Source ID</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2696,7 +2620,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:23</sys_created_on>
         <sys_id>9d0050c283eda91067a211b6feaad344</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Range</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2721,7 +2645,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:24</sys_created_on>
         <sys_id>950050c283eda91067a211b6feaad34d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2744,7 +2668,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 07:57:24</sys_created_on>
         <sys_id>e90050c283eda91067a211b6feaad352</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -3546,9 +3470,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d225c4683eda91067a211b6feaad3b3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
-        <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
+        <action_type display_value="">878053f3c7043010678d208c95c26025</action_type>
+        <action_type_parent display_value="">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Processor Job for GL Account Text Data from SAP ECC">93f1984683eda91067a211b6feaad33d</flow>
@@ -3577,7 +3500,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
         <value>fb2b979947cfd51086887562846d435f</value>
-        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+        <variable display_value="">478053f3c7043010678d208c95c2602f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -3591,7 +3514,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+        <variable display_value="">4b8053f3c7043010678d208c95c26026</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -3605,69 +3528,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2023-04-18 07:18:07</sys_updated_on>
         <value>{"children":[],"type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
-        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+        <variable display_value="">078053f3c7043010678d208c95c26045</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1c225c4683eda91067a211b6feaad35e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>1c225c4683eda91067a211b6feaad35e</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:37</sys_created_on>
-        <sys_id>e4225c4683eda91067a211b6feaad360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{subflow.connection_credential_alias}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>1c225c4683eda91067a211b6feaad35e</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:37</sys_created_on>
-        <sys_id>24225c4683eda91067a211b6feaad360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>1c225c4683eda91067a211b6feaad35e</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:37</sys_created_on>
-        <sys_id>20225c4683eda91067a211b6feaad361</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{5997cd25-219c-4e40-9395-d6311be835e9.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>1c225c4683eda91067a211b6feaad35e</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:37</sys_created_on>
-        <sys_id>a8225c4683eda91067a211b6feaad360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>1c225c4683eda91067a211b6feaad35e</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:37</sys_created_on>
-        <sys_id>6c225c4683eda91067a211b6feaad360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{71f28c61-3094-43ad-ae84-f156fbde8dd1.it_options_string}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1c225c4683eda91067a211b6feaad35e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c225c4683eda91067a211b6feaad35e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3936,9 +3798,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=89225c4683eda91067a211b6feaad3b9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Processor Job for GL Account Text Data from SAP ECC">93f1984683eda91067a211b6feaad33d</flow>
@@ -3967,21 +3828,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:06:35</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b7125c4683eda91067a211b6feaad305"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>b7125c4683eda91067a211b6feaad305</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:06:35</sys_created_on>
-        <sys_id>c8225c4683eda91067a211b6feaad306</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:06:35</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b7125c4683eda91067a211b6feaad305"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b7125c4683eda91067a211b6feaad305"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5404,7 +5252,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:14</sys_created_on>
         <sys_id>3602d84683eda91067a211b6feaad36e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Row Count</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5427,7 +5275,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:15</sys_created_on>
         <sys_id>4b02d84683eda91067a211b6feaad3a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Range</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5450,7 +5298,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:12</sys_created_on>
         <sys_id>9e02984683eda91067a211b6feaad3f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5473,7 +5321,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:16</sys_created_on>
         <sys_id>d302d84683eda91067a211b6feaad3af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ERP Source ID</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5496,7 +5344,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:18</sys_created_on>
         <sys_id>ff02d84683eda91067a211b6feaad3c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection &amp; Credential Alias</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5521,7 +5369,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:24</sys_created_on>
         <sys_id>4d121c4683eda91067a211b6feaad304</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5544,7 +5392,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_on>2023-03-14 08:06:20</sys_created_on>
         <sys_id>5c12d84683eda91067a211b6feaad3d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
