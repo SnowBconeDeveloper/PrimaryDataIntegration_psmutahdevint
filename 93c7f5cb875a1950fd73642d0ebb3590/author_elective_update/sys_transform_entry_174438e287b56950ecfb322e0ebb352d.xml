@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Supplier V2 - Location">18852ca687756950ecfb322e0ebb352d</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    var gr = new GlideRecord('core_country');
+    gr.addQuery('iso3166_2', source.country_key);
+    gr.query();
+    if (gr.next()) {
+        return gr.getValue("name");
+    }
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-28 10:08:35</sys_created_on>
+        <sys_id>174438e287b56950ecfb322e0ebb352d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_174438e287b56950ecfb322e0ebb352d</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-03 14:42:11</sys_updated_on>
+        <target_field>country</target_field>
+        <target_table>cmn_location</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>d43f54fddb0169509831ac44d49619bc</instance_id>
+        <instance_name>utahforprama</instance_name>
+        <name>sys_transform_entry_174438e287b56950ecfb322e0ebb352d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Transform Supplier V2 - Location"&gt;18852ca687756950ecfb322e0ebb352d&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+    var gr = new GlideRecord('core_country');
+    gr.addQuery('iso3166_2', source.country_key);
+    gr.query();
+    if (gr.next()) {
+        return gr.getValue("name");
+    }
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;sn_sap_data_int_supplier_stg&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Prama&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-28 10:08:35&lt;/sys_created_on&gt;&lt;sys_id&gt;174438e287b56950ecfb322e0ebb352d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_174438e287b56950ecfb322e0ebb352d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Prama&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-03 14:42:11&lt;/sys_updated_on&gt;&lt;target_field&gt;country&lt;/target_field&gt;&lt;target_table&gt;cmn_location&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1723261502</payload_hash>
+        <record_name>[Script]</record_name>
+        <reverted_from/>
+        <source>020564a087862190ecfb322e0ebb3533</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-03 14:42:11</sys_created_on>
+        <sys_id>6d7c686887862190ecfb322e0ebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187479183870000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-03 14:42:11</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>257c68682f86219047636e8094c2f1ba</update_guid>
+        <update_guid_history>257c68682f86219047636e8094c2f1ba:-1723261502,4e62ba90fec2a91011327987c7f22b91:316715875,815f3c6e7fb569502c7caa54c9c1e5e1:-212909179,ec779166123969501527ee15f533d29f:-162501767,815f3c6e7fb569502c7caa54c9c1e5e1:-212909179,e4947ce25ab56950346f70f6d6ba0e51:-829985688,574438e2beb569503591c7a39aba892e:83474953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-04 10:48:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>160ab1d28c7c4ac098ed8c24ee672400</sys_id>
+        <sys_metadata>174438e287b56950ecfb322e0ebb352d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_174438e287b56950ecfb322e0ebb352d</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_174438e287b56950ecfb322e0ebb352d">6d7c686887862190ecfb322e0ebb35ba</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-04 10:48:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

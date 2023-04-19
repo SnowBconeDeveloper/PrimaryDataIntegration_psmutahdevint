@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>reject</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Supplier V2 - Supplier Location">0cb5aca687756950ecfb322e0ebb35f5</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	//gs.info("Vendor Number "+source.account_number_of_vendor_or_creditor);
+    var gr = new GlideRecord('sn_fin_supplier');
+    gr.addQuery('erp_company_code', source.account_number_of_vendor_or_creditor);
+    gr.query();
+    if (gr.next) {
+        return gr.getUniqueValue();
+    }
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-28 10:42:04</sys_created_on>
+        <sys_id>bf7a74a687b56950ecfb322e0ebb353b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_bf7a74a687b56950ecfb322e0ebb353b</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-30 03:19:11</sys_updated_on>
+        <target_field>supplier</target_field>
+        <target_table>sn_slm_m2m_location</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>d43f54fddb0169509831ac44d49619bc</instance_id>
+        <instance_name>utahforprama</instance_name>
+        <name>sys_transform_entry_bf7a74a687b56950ecfb322e0ebb353b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;reject&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Transform Supplier V2 - Supplier Location"&gt;0cb5aca687756950ecfb322e0ebb35f5&lt;/map&gt;&lt;reference_value_field&gt;sys_id&lt;/reference_value_field&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	//gs.info("Vendor Number "+source.account_number_of_vendor_or_creditor);
+    var gr = new GlideRecord('sn_fin_supplier');
+    gr.addQuery('erp_company_code', source.account_number_of_vendor_or_creditor);
+    gr.query();
+    if (gr.next) {
+        return gr.getUniqueValue();
+    }
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;sn_sap_data_int_supplier_stg&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Prama&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-28 10:42:04&lt;/sys_created_on&gt;&lt;sys_id&gt;bf7a74a687b56950ecfb322e0ebb353b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_bf7a74a687b56950ecfb322e0ebb353b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Prama&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-30 03:19:11&lt;/sys_updated_on&gt;&lt;target_field&gt;supplier&lt;/target_field&gt;&lt;target_table&gt;sn_slm_m2m_location&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-520185883</payload_hash>
+        <record_name>[Script]</record_name>
+        <reverted_from/>
+        <source>9e7bf31287f16950ecfb322e0ebb35a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-30 03:19:11</sys_created_on>
+        <sys_id>71c969cf87b5ad5024ecfc86dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1873086c3b70000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-30 03:19:11</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>39c969cf85b5ad50f5d944b3b985412b</update_guid>
+        <update_guid_history>39c969cf85b5ad50f5d944b3b985412b:-520185883,9356e9cb0cb5ad5058947b57c3ee54ca:1267944901,9eeeb46ed8b5695046c3aa71b118c45f:-110451474,d367116631396950ccc4dd93bad93894:1027325154,9eeeb46ed8b5695046c3aa71b118c45f:-110451474,39fb74a67eb5695078a2bf9bdc0d1741:1163257323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-30 03:25:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>08d83b3f7da64bbab759e0c2fe51ea51</sys_id>
+        <sys_metadata>bf7a74a687b56950ecfb322e0ebb353b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_bf7a74a687b56950ecfb322e0ebb353b</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_bf7a74a687b56950ecfb322e0ebb353b">71c969cf87b5ad5024ecfc86dabb352c</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-30 03:25:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

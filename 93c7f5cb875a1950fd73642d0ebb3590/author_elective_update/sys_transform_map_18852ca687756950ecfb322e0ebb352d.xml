@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>false</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Transform Supplier V2 - Location</name>
+        <order>200</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-28 09:04:39</sys_created_on>
+        <sys_id>18852ca687756950ecfb322e0ebb352d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Transform Supplier V2 - Location</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_map_18852ca687756950ecfb322e0ebb352d</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-04 09:57:31</sys_updated_on>
+        <target_table>cmn_location</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>d43f54fddb0169509831ac44d49619bc</instance_id>
+        <instance_name>utahforprama</instance_name>
+        <name>sys_transform_map_18852ca687756950ecfb322e0ebb352d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Transform Supplier V2 - Location&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;sn_sap_data_int_supplier_stg&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Prama&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-28 09:04:39&lt;/sys_created_on&gt;&lt;sys_id&gt;18852ca687756950ecfb322e0ebb352d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Transform Supplier V2 - Location&lt;/sys_name&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_18852ca687756950ecfb322e0ebb352d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Prama&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-04 09:57:31&lt;/sys_updated_on&gt;&lt;target_table&gt;cmn_location&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-298845641</payload_hash>
+        <record_name>Transform Supplier V2 - Location</record_name>
+        <reverted_from/>
+        <source>020564a087862190ecfb322e0ebb3533</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-04 09:57:31</sys_created_on>
+        <sys_id>61e4fcb88706659024ecfc86dabb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1874bb340ef0000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-04 09:57:31</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>29e4fcb8340665906c242c7caae4e2ac</update_guid>
+        <update_guid_history>29e4fcb8340665906c242c7caae4e2ac:-298845641,898aa0eab5756950676f3e2781525748:1087506996,f87791663d39695065883dffe3c735c9:48888256,898aa0eab5756950676f3e2781525748:1087506996,b2a568a65b75695061832eccec0cbaa1:-1744880939</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-04 10:48:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>5d07f1d61fe64397b81ce3f6a9ecc011</sys_id>
+        <sys_metadata>18852ca687756950ecfb322e0ebb352d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transform Supplier V2 - Location</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_transform_map_18852ca687756950ecfb322e0ebb352d</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_18852ca687756950ecfb322e0ebb352d">61e4fcb88706659024ecfc86dabb35ad</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-04 10:48:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

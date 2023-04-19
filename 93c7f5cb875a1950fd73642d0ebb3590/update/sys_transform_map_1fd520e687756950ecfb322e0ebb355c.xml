@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
     <sys_transform_map action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <copy_empty_fields>false</copy_empty_fields>
         <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>No</enforce_mandatory_fields>
-        <name>Transform Suppliers</name>
-        <order>100</order>
+        <name>Transform Supplier V2 - Supplier Details</name>
+        <order>300</order>
         <run_business_rules>true</run_business_rules>
         <run_script>false</run_script>
         <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
@@ -16,16 +16,16 @@
         <source_table>sn_sap_data_int_supplier_stg</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
         <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2022-11-09 19:54:44</sys_created_on>
-        <sys_id>e135c7758743dd1093264085dabb3589</sys_id>
+        <sys_created_on>2023-03-28 09:05:30</sys_created_on>
+        <sys_id>1fd520e687756950ecfb322e0ebb355c</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name>Transform Suppliers</sys_name>
+        <sys_name>Transform Supplier V2 - Supplier Details</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_transform_map_e135c7758743dd1093264085dabb3589</sys_update_name>
+        <sys_update_name>sys_transform_map_1fd520e687756950ecfb322e0ebb355c</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-30 09:38:14</sys_updated_on>
-        <target_table>sn_fin_supplier</target_table>
+        <sys_updated_on>2023-04-04 07:43:24</sys_updated_on>
+        <target_table>sn_fin_supplier_detail</target_table>
     </sys_transform_map>
 </record_update>

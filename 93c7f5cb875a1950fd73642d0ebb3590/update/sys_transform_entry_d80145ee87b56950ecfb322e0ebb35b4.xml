@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>reject</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Supplier V2 - Supplier Details">1fd520e687756950ecfb322e0ebb355c</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    var gr_legal = new GlideRecord('sn_fin_legal_entity');
+    gr_legal.addQuery('erp_company_code', source.company_code);
+    gr_legal.addQuery('erp_source', source.erp_source);
+    gr_legal.query();
+    if (gr_legal.next()) {
+        return gr_legal.getUniqueValue();
+    }
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-28 11:08:33</sys_created_on>
+        <sys_id>d80145ee87b56950ecfb322e0ebb35b4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_d80145ee87b56950ecfb322e0ebb35b4</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-03 14:44:56</sys_updated_on>
+        <target_field>legal_entity</target_field>
+        <target_table>sn_fin_supplier_detail</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>
