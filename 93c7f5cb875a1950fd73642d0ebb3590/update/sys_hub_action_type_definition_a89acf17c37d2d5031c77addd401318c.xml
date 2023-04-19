@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a89acf17c37d2d5031c77addd401318c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate Payment Term Net Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a89acf17c37d2d5031c77addd401318c</sys_update_name>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-17 08:02:26</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:03:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -581,11 +581,11 @@
         <sys_created_on>2023-04-03 03:59:43</sys_created_on>
         <sys_id>a269de9cc382219031c77addd40131a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8b26521cc382219031c77addd40131c6_total_rows_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:59:43</sys_updated_on>
         <url/>
@@ -604,11 +604,11 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>cf26521cc382219031c77addd40131da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Payment Terms</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8b26521cc382219031c77addd40131c6_payment_terms_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:45:33</sys_updated_on>
         <url/>
@@ -1172,11 +1172,11 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>0f26521cc382219031c77addd40131c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a89acf17c37d2d5031c77addd401318c_json_string_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:45:33</sys_updated_on>
         <url/>
@@ -1195,11 +1195,11 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>0f26521cc382219031c77addd40131c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a89acf17c37d2d5031c77addd401318c_delimiter_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:45:33</sys_updated_on>
         <url/>
@@ -1220,11 +1220,11 @@
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>1b26521cc382219031c77addd40131f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c___action_status___en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:45:34</sys_updated_on>
         <url/>
@@ -1243,11 +1243,11 @@
         <sys_created_on>2023-04-03 04:06:05</sys_created_on>
         <sys_id>bbdad210c3c2219031c77addd40131c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Payment Terms</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c_payment_terms_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:06:05</sys_updated_on>
         <url/>
@@ -1266,11 +1266,11 @@
         <sys_created_on>2023-04-03 04:06:06</sys_created_on>
         <sys_id>c0ead210c3c2219031c77addd40131ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c_total_rows_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:06:06</sys_updated_on>
         <url/>
@@ -1289,11 +1289,11 @@
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>df26521cc382219031c77addd40131f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 03:45:34</sys_updated_on>
         <url/>
@@ -1881,11 +1881,11 @@
         <sys_created_on>2023-04-03 04:07:01</sys_created_on>
         <sys_id>2d1bd610c3c2219031c77addd4013121</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_951b9610c3c2219031c77addd40131d1_total_rows_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:01</sys_updated_on>
         <url/>
@@ -1904,11 +1904,11 @@
         <sys_created_on>2023-04-03 04:07:01</sys_created_on>
         <sys_id>6d1bd610c3c2219031c77addd401311e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Payment Terms</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_951b9610c3c2219031c77addd40131d1_payment_terms_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:01</sys_updated_on>
         <url/>
@@ -2472,11 +2472,11 @@
         <sys_created_on>2023-04-03 04:07:00</sys_created_on>
         <sys_id>051b9610c3c2219031c77addd40131cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_851b9610c3c2219031c77addd40131c5_json_string_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:00</sys_updated_on>
         <url/>
@@ -2495,11 +2495,11 @@
         <sys_created_on>2023-04-03 04:07:00</sys_created_on>
         <sys_id>991b9610c3c2219031c77addd40131cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_851b9610c3c2219031c77addd40131c5_delimiter_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:00</sys_updated_on>
         <url/>
@@ -2520,11 +2520,11 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>311bd610c3c2219031c77addd4013158</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5___action_status___en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:03</sys_updated_on>
         <url/>
@@ -2543,11 +2543,11 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>461bd610c3c2219031c77addd4013169</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:03</sys_updated_on>
         <url/>
@@ -2566,11 +2566,11 @@
         <sys_created_on>2023-04-03 04:07:02</sys_created_on>
         <sys_id>791bd610c3c2219031c77addd4013154</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Payment Terms</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5_payment_terms_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:02</sys_updated_on>
         <url/>
@@ -2589,11 +2589,11 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>8a1bd610c3c2219031c77addd401316c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5_total_rows_en</sys_update_name>
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:03</sys_updated_on>
         <url/>

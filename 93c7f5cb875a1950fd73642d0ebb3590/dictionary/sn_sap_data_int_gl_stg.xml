@@ -18,22 +18,22 @@
         <element attributes="edge_encryption_enabled=true" label="G/L account additional text" max_length="50" name="u_g_l_account_additional_text" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="G/L Account Number" mandatory="true" max_length="20" name="u_g_l_account_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ID for account details" max_length="5" name="u_id_for_account_details" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Indicator: Account Managed in External System" max_length="10" name="u_indicator_account_managed_in_external_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Account Managed in External System" max_length="10" name="u_indicator_account_managed_in_external_system" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Account marked for deletion?" max_length="1" name="u_indicator_account_marked_for_deletion" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Indicator: Can Line Items Be Displayed by Account?" max_length="1" name="u_indicator_can_line_items_be_displayed_by_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Can Line Items Be Displayed by Account?" max_length="1" name="u_indicator_can_line_items_be_displayed_by_account" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Is account blocked for posting?" max_length="1" name="u_indicator_is_account_blocked_for_posting" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Indicator: Is account only posted to automatically?" max_length="1" name="u_indicator_is_account_only_posted_to_automatically" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Indicator: Manage Balances in Local Currency Only" max_length="1" name="u_indicator_manage_balances_in_local_currency_only" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Is account only posted to automatically?" max_length="1" name="u_indicator_is_account_only_posted_to_automatically" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Manage Balances in Local Currency Only" max_length="1" name="u_indicator_manage_balances_in_local_currency_only" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Open Item Management?" max_length="1" name="u_indicator_open_item_management" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Reconcil.acct ready for input at time of posting?" max_length="1" name="u_indicator_reconcil_acct_ready_for_input_at_time_of_posting" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Supplement for automatic postings ?" max_length="1" name="u_indicator_supplement_for_automatic_postings" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator: Tax code is not a required field" max_length="1" name="u_indicator_tax_code_is_not_a_required_field" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Inflation Key" max_length="8" name="u_inflation_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Interest Calculation Frequency in Months" max_length="10" name="u_interest_calculation_frequency_in_months" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Interest Calculation Frequency in Months" max_length="10" name="u_interest_calculation_frequency_in_months" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Interest calculation indicator" max_length="5" name="u_interest_calculation_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Key Date of Last Interest Calculation" max_length="10" name="u_key_date_of_last_interest_calculation" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Key for Exchange Rate Differences in Foreign Currency Accts" max_length="10" name="u_key_for_exchange_rate_differences_in_foreign_currency_accts" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Key for sorting according to assignment numbers" max_length="1" name="u_key_for_sorting_according_to_assignment_numbers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key for Exchange Rate Differences in Foreign Currency Accts" max_length="10" name="u_key_for_exchange_rate_differences_in_foreign_currency_accts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key for sorting according to assignment numbers" max_length="1" name="u_key_for_sorting_according_to_assignment_numbers" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="MCA Key" max_length="5" name="u_mca_key" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name of Person who Created the Object" max_length="20" name="u_name_of_person_who_created_the_object" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Planning group" max_length="20" name="u_planning_group" type="string"/>

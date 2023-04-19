@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="it_options" label="IT Options" language="en" table="var__m_sys_hub_action_input_65fadb48872f111013ef52c73cbb356a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>it_options</element>
+            <help/>
+            <hint/>
+            <label>IT Options</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_65fadb48872f111013ef52c73cbb356a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-11-29 07:31:49</sys_created_on>
+            <sys_id>fa3b1788872f111013ef52c73cbb35c5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>IT Options</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_65fadb48872f111013ef52c73cbb356a_it_options_en</sys_update_name>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 06:03:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

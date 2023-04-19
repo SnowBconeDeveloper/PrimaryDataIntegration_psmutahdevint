@@ -52,6 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-05 09:27:05</sys_created_on>
+        <sys_id>bd3dc00d8352e1109a0b64e0deaad3fd</sys_id>
         <sys_name>Additional Months for Special Condition 3</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>

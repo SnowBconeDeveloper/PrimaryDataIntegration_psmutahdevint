@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 05:22:54</sys_created_on>
+        <sys_id>81fa2e6647aa995096fcb777746d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_cc_stg.sn_sap_data.int_cc_stg_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_security_acl display_value="sn_sap_data_int_cc_stg">c1fa2e6647aa995096fcb777746d43a3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_81fa2e6647aa995096fcb777746d43a7</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 05:22:54</sys_updated_on>
+        <sys_user_role display_value="sn_sap_data.int_cc_stg_user" name="sn_sap_data.int_cc_stg_user">acfaaa6647aa995096fcb777746d43e5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>652d3c0fdb02a5d8c9912f17d4961994</instance_id>
+        <instance_name>psmutahdevint</instance_name>
+        <name>sys_security_acl_role_81fa2e6647aa995096fcb777746d43a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 05:22:54</sys_created_on>
+        <sys_id>81fa2e6647aa995096fcb777746d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_cc_stg.sn_sap_data.int_cc_stg_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_security_acl display_value="sn_sap_data_int_cc_stg">c1fa2e6647aa995096fcb777746d43a3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_81fa2e6647aa995096fcb777746d43a7</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 05:22:54</sys_updated_on>
+        <sys_user_role display_value="sn_sap_data.int_cc_stg_user" name="sn_sap_data.int_cc_stg_user">acfaaa6647aa995096fcb777746d43e5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1288009011</payload_hash>
+        <record_name>sn_sap_data_int_cc_stg.sn_sap_data.int_cc_stg_user</record_name>
+        <reverted_from/>
+        <source>424dc80d8352e1109a0b64e0deaad39b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 12:11:36</sys_created_on>
+        <sys_id>2c40940183d2e1109a0b64e0deaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1878f20b0900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:11:36</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e840940156d2e110e123985481939fdf</update_guid>
+        <update_guid_history>e840940156d2e110e123985481939fdf:1288009011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_sap_data_int_cc_stg.sn_sap_data.int_cc_stg_user">7006e665835621109a0b64e0deaad31e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:22:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>64ed2027a30e489697222a59eea08ca4</sys_id>
+        <sys_metadata>81fa2e6647aa995096fcb777746d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_cc_stg.sn_sap_data.int_cc_stg_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="">c1fa2e6647aa995096fcb777746d43a3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_81fa2e6647aa995096fcb777746d43a7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_81fa2e6647aa995096fcb777746d43a7">2c40940183d2e1109a0b64e0deaad3df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:22:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

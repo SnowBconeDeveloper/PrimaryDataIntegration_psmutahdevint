@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="json_string" label="Json String" language="en" table="var__m_sys_hub_action_input_251ef9894797511086887562846d4313">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>json_string</element>
+            <help/>
+            <hint/>
+            <label>Json String</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_251ef9894797511086887562846d4313</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Priyanshi</sys_created_by>
+            <sys_created_on>2022-11-19 17:03:10</sys_created_on>
+            <sys_id>f21ef9894797511086887562846d431b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Json String</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_251ef9894797511086887562846d4313_json_string_en</sys_update_name>
+            <sys_updated_by>Priyanshi</sys_updated_by>
+            <sys_updated_on>2022-11-19 17:03:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

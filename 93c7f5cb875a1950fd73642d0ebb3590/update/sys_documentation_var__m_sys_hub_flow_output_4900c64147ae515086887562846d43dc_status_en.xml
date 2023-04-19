@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="status" label="Status" language="en" table="var__m_sys_hub_flow_output_4900c64147ae515086887562846d43dc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <help/>
+            <hint/>
+            <label>Status</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_4900c64147ae515086887562846d43dc</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2022-10-13 10:24:38</sys_created_on>
+            <sys_id>04100a4147ae515086887562846d43c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Status</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_4900c64147ae515086887562846d43dc_status_en</sys_update_name>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:24:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

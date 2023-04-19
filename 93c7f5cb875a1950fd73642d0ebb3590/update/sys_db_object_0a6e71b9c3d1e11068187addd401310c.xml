@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Application File" name="sys_metadata">6edf3120831121102aac11b6feaad386</super_class>
+        <super_class display_value="Application File" name="sys_metadata">7c310103c3022110f827dff905013186</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-11 14:44:51</sys_created_on>

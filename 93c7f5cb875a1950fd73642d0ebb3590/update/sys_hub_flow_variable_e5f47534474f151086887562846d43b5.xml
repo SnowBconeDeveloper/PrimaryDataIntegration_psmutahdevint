@@ -2,7 +2,6 @@
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=4863a6e6-9a1b-4738-b05f-9098708e039d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -30,6 +29,7 @@
         <element>total_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -38,7 +38,7 @@
         <label>Total Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Retrieve Ledger Account">84f43534474f151086887562846d43e1</model>
+        <model display_value="">84f43534474f151086887562846d43e1</model>
         <model_id>84f43534474f151086887562846d43e1</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_84f43534474f151086887562846d43e1</name>
@@ -54,14 +54,12 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-06 11:29:02</sys_created_on>
         <sys_id>e5f47534474f151086887562846d43b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Total Count</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
@@ -76,6 +74,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_fcms_intg_source">
     <sn_fcms_intg_source action="INSERT_OR_UPDATE">
-        <connection display_value="sn_sap_s4_hana_rfc.SAP_S4HANA_RFC">a68ec12bdb3d90100fbb3764e29619ca</connection>
+        <connection/>
         <erp>sap_hana</erp>
-        <fin_erp display_value="SAP HANA">27dc7ad7830661502aac11b6feaad3d0</fin_erp>
+        <fin_erp display_value="">27dc7ad7830661502aac11b6feaad3d0</fin_erp>
         <inactive>false</inactive>
         <name>SAP HANA</name>
         <sys_class_name>sn_fcms_intg_source</sys_class_name>
@@ -17,6 +17,5 @@
         <sys_update_name>sn_fcms_intg_source_a506b543c355e11031c77addd40131e3</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-04-12 14:16:56</sys_updated_on>
-        <u_connection>a68ec12bdb3d90100fbb3764e29619ca</u_connection>
     </sn_fcms_intg_source>
 </record_update>

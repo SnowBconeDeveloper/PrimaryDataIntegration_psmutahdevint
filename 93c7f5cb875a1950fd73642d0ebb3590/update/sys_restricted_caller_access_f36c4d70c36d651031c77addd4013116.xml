@@ -4,7 +4,7 @@
         <operation>execute</operation>
         <rca_type>real_rca</rca_type>
         <source>cbf2c83bc35d611031c77addd40131a2</source>
-        <source_scope display_value="">0b4eadd1531113008f12ddeeff7b126d</source_scope>
+        <source_scope display_value="Finance - ERP Integration">0b4eadd1531113008f12ddeeff7b126d</source_scope>
         <source_table>sys_ui_page</source_table>
         <source_type>15</source_type>
         <status>2</status>

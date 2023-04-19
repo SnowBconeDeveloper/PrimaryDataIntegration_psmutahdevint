@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cost_center" label="Cost Center" language="en" table="var__m_sys_hub_step_ext_output_2e12c71a47ea595096fcb777746d438f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <help/>
+            <hint/>
+            <label>Cost Center</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_2e12c71a47ea595096fcb777746d438f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Midhat</sys_created_by>
+            <sys_created_on>2022-11-20 08:18:33</sys_created_on>
+            <sys_id>b39f059d4757911096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost Center</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2e12c71a47ea595096fcb777746d438f_cost_center_en</sys_update_name>
+            <sys_updated_by>Midhat</sys_updated_by>
+            <sys_updated_on>2022-11-20 08:18:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ledger_account" label="Ledger Account" language="en" table="var__m_sys_hub_step_ext_output_0b0bca2f87571510ca0252c73cbb35aa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ledger_account</element>
+            <help/>
+            <hint/>
+            <label>Ledger Account</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_0b0bca2f87571510ca0252c73cbb35aa</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Priyanshi</sys_created_by>
+            <sys_created_on>2022-11-27 12:24:32</sys_created_on>
+            <sys_id>9b0bca2f87571510ca0252c73cbb35e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ledger Account</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0b0bca2f87571510ca0252c73cbb35aa_ledger_account_en</sys_update_name>
+            <sys_updated_by>Priyanshi</sys_updated_by>
+            <sys_updated_on>2022-11-27 12:24:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

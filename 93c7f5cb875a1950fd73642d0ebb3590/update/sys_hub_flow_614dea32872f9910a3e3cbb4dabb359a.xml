@@ -15,6 +15,7 @@
         <name>Parallel Subflow Caller for FX rates</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -35,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_614dea32872f9910a3e3cbb4dabb359a</sys_update_name>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:35:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:08:05</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=614dea32872f9910a3e3cbb4dabb359a"/>
@@ -89,6 +90,7 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -135,6 +137,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -170,6 +173,7 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -216,6 +220,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -252,6 +257,7 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -298,6 +304,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -333,6 +340,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -379,6 +387,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -511,8 +520,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=811173a48748e910a3e3cbb4dabb3548"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
+        <action_type display_value="">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
@@ -542,7 +550,7 @@
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-20 13:08:28</sys_updated_on>
         <value>d0578871dbad8010ea4494d9db9619d9</value>
-        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+        <variable display_value="">4b8053f3c7043010678d208c95c26026</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -556,7 +564,7 @@
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-20 13:12:42</sys_updated_on>
         <value>fb2b979947cfd51086887562846d435f</value>
-        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+        <variable display_value="">478053f3c7043010678d208c95c2602f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -570,69 +578,8 @@
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-05 10:07:06</sys_updated_on>
         <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
-        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+        <variable display_value="">078053f3c7043010678d208c95c26045</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=89113a36872f9910a3e3cbb4dabb350d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>89113a36872f9910a3e3cbb4dabb350d</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 17:30:57</sys_created_on>
-        <sys_id>d5113a36872f9910a3e3cbb4dabb350f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 17:30:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>89113a36872f9910a3e3cbb4dabb350d</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 17:30:57</sys_created_on>
-        <sys_id>15113a36872f9910a3e3cbb4dabb350f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 17:30:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>89113a36872f9910a3e3cbb4dabb350d</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 17:30:57</sys_created_on>
-        <sys_id>5d113a36872f9910a3e3cbb4dabb350f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-20 13:15:04</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{948c6461-d757-412f-bcdc-49b243e76815.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>89113a36872f9910a3e3cbb4dabb350d</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 17:30:57</sys_created_on>
-        <sys_id>99113a36872f9910a3e3cbb4dabb350f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 17:30:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>89113a36872f9910a3e3cbb4dabb350d</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-08 07:16:16</sys_created_on>
-        <sys_id>eafda18b872bd910a3e3cbb4dabb354e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-20 13:15:04</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>IT_OPTIONS={{ed5b120a-d4ed-404c-a429-0c376d96be44.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=89113a36872f9910a3e3cbb4dabb350d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=89113a36872f9910a3e3cbb4dabb350d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -998,8 +945,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=be647ef6872f9910a3e3cbb4dabb35aa"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
@@ -1029,21 +975,8 @@
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 17:30:57</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c911f636872f9910a3e3cbb4dabb35f5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>c911f636872f9910a3e3cbb4dabb35f5</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 17:30:57</sys_created_on>
-        <sys_id>8511f636872f9910a3e3cbb4dabb35f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 17:30:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c911f636872f9910a3e3cbb4dabb35f5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c911f636872f9910a3e3cbb4dabb35f5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1425,6 +1358,7 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1471,6 +1405,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1607,6 +1542,7 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1653,6 +1589,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3700,6 +3637,7 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3746,6 +3684,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3781,6 +3720,7 @@ Please refer the flow context logs.</value>
         <element>retry_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3827,6 +3767,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3862,6 +3803,7 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3908,6 +3850,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3943,6 +3886,7 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3989,6 +3933,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4024,6 +3969,7 @@ Please refer the flow context logs.</value>
         <element>child_flow_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4070,6 +4016,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4105,6 +4052,7 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4151,6 +4099,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4186,6 +4135,7 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4232,6 +4182,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4267,6 +4218,7 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4313,6 +4265,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4335,7 +4288,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_614dea32872f9910a3e3cbb4dabb359a_connection_name_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 17:30:55</sys_updated_on>
         <url/>
@@ -4358,7 +4311,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_614dea32872f9910a3e3cbb4dabb359a_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 17:30:55</sys_updated_on>
         <url/>
@@ -4383,7 +4336,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_614dea32872f9910a3e3cbb4dabb359a_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-08 05:12:59</sys_updated_on>
         <url/>
@@ -4406,7 +4359,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_614dea32872f9910a3e3cbb4dabb359a_error_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-08 05:12:59</sys_updated_on>
         <url/>
@@ -4561,6 +4514,7 @@ Please refer the flow context logs.</value>
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4607,6 +4561,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4642,6 +4597,7 @@ Please refer the flow context logs.</value>
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4688,6 +4644,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4724,6 +4681,7 @@ Please refer the flow context logs.</value>
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4770,6 +4728,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4805,6 +4764,7 @@ Please refer the flow context logs.</value>
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4851,6 +4811,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5296,9 +5257,8 @@ Please refer the flow context logs.</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6143cf7a876f9910a3e3cbb4dabb35b0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates">2043cf7a876f9910a3e3cbb4dabb3526</flow>
@@ -5327,21 +5287,8 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 18:50:27</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7d43cf7a876f9910a3e3cbb4dabb35ba"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>7d43cf7a876f9910a3e3cbb4dabb35ba</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 18:50:27</sys_created_on>
-        <sys_id>b943cf7a876f9910a3e3cbb4dabb35bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 18:50:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7d43cf7a876f9910a3e3cbb4dabb35ba"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d43cf7a876f9910a3e3cbb4dabb35ba"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5655,9 +5602,8 @@ Please refer the flow context logs.</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f751fba48748e910a3e3cbb4dabb3572"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
-        <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
+        <action_type display_value="">878053f3c7043010678d208c95c26025</action_type>
+        <action_type_parent display_value="">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Caller for FX rates">2043cf7a876f9910a3e3cbb4dabb3526</flow>
@@ -5686,7 +5632,7 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-20 13:17:03</sys_updated_on>
         <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
-        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+        <variable display_value="">078053f3c7043010678d208c95c26045</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5700,7 +5646,7 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-20 13:17:03</sys_updated_on>
         <value>fb2b979947cfd51086887562846d435f</value>
-        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+        <variable display_value="">478053f3c7043010678d208c95c2602f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -5714,69 +5660,8 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-20 13:17:03</sys_updated_on>
         <value>d0578871dbad8010ea4494d9db9619d9</value>
-        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+        <variable display_value="">4b8053f3c7043010678d208c95c26026</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f943cf7a876f9910a3e3cbb4dabb35d6"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>f943cf7a876f9910a3e3cbb4dabb35d6</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 18:50:28</sys_created_on>
-        <sys_id>0643cf7a876f9910a3e3cbb4dabb35d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 18:50:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>f943cf7a876f9910a3e3cbb4dabb35d6</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 18:50:28</sys_created_on>
-        <sys_id>4243cf7a876f9910a3e3cbb4dabb35d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 18:50:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>import_and_changing_tab_inputs</field>
-        <id>f943cf7a876f9910a3e3cbb4dabb35d6</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 18:50:28</sys_created_on>
-        <sys_id>8a43cf7a876f9910a3e3cbb4dabb35d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 18:50:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>{{948c6461-d757-412f-bcdc-49b243e76815.encoded_query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>rfc</field>
-        <id>f943cf7a876f9910a3e3cbb4dabb35d6</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-07 18:50:28</sys_created_on>
-        <sys_id>c643cf7a876f9910a3e3cbb4dabb35d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-07 18:50:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tables_tab_inputs</field>
-        <id>f943cf7a876f9910a3e3cbb4dabb35d6</id>
-        <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-12-08 07:17:23</sys_created_on>
-        <sys_id>c33ee98b872bd910a3e3cbb4dabb3578</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-08 07:17:23</sys_updated_on>
-        <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>IT_OPTIONS={{ed5b120a-d4ed-404c-a429-0c376d96be44.it_options}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f943cf7a876f9910a3e3cbb4dabb35d6"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f943cf7a876f9910a3e3cbb4dabb35d6"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2043cf7a876f9910a3e3cbb4dabb3526^sys_idNOT INa4613fa48748e910a3e3cbb4dabb3545,d643cf7a876f9910a3e3cbb4dabb35f3"/>
@@ -5911,6 +5796,7 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5957,6 +5843,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6079,6 +5966,7 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6125,6 +6013,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8172,6 +8061,7 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8218,6 +8108,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8253,6 +8144,7 @@ Please refer the flow context logs.</value>
         <element>child_flow_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8299,6 +8191,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8334,6 +8227,7 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8380,6 +8274,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8415,6 +8310,7 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8461,6 +8357,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8496,6 +8393,7 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8542,6 +8440,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8577,6 +8476,7 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8623,6 +8523,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8658,6 +8559,7 @@ Please refer the flow context logs.</value>
         <element>retry_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8704,6 +8606,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8739,6 +8642,7 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8785,6 +8689,7 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8807,7 +8712,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2043cf7a876f9910a3e3cbb4dabb3526_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 18:50:24</sys_updated_on>
         <url/>
@@ -8830,7 +8735,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2043cf7a876f9910a3e3cbb4dabb3526_connection_name_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-07 18:50:23</sys_updated_on>
         <url/>
@@ -8855,7 +8760,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2043cf7a876f9910a3e3cbb4dabb3526_error_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-08 05:14:36</sys_updated_on>
         <url/>
@@ -8878,7 +8783,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2043cf7a876f9910a3e3cbb4dabb3526_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-12-08 05:14:36</sys_updated_on>
         <url/>

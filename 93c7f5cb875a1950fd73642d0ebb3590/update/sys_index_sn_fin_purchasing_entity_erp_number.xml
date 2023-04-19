@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>erp_number</col_name_string>
-        <index_col_name element="erp_number" name="sn_fin_purchasing_entity">01d95f3c4752d11086887562846d43b1</index_col_name>
+        <index_col_name element="erp_number" name="sn_fin_purchasing_entity">04869733c34ea110f827dff9050131c2</index_col_name>
         <logical_table_name>sn_fin_purchasing_entity</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>system</sys_created_by>
@@ -15,7 +15,7 @@
         <sys_update_name>sys_index_sn_fin_purchasing_entity_erp_number</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-10-12 15:19:56</sys_updated_on>
-        <table display_value="Purchasing Entity" name="sn_fin_purchasing_entity">f0d95f3c4752d11086887562846d438a</table>
+        <table display_value="Purchasing Entity" name="sn_fin_purchasing_entity">73769733c34ea110f827dff9050131b6</table>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

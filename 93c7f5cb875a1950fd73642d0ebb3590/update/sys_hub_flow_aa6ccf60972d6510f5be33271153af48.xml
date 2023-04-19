@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_aa6ccf60972d6510f5be33271153af48</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-17 11:10:50</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:08:59</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=aa6ccf60972d6510f5be33271153af48"/>
@@ -1330,9 +1330,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=807c03a0972d6510f5be33271153af68"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">f9255baa975c6910215b35471153af6d</action_type>
-        <action_type_parent display_value="Look up Vendors">f87c0be2975c6910215b35471153af43</action_type_parent>
+        <action_type display_value="">f9255baa975c6910215b35471153af6d</action_type>
+        <action_type_parent display_value="">f87c0be2975c6910215b35471153af43</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child Suppliers S4Hana">aa6ccf60972d6510f5be33271153af48</flow>
@@ -1361,7 +1360,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:42</sys_updated_on>
         <value/>
-        <variable display_value="Row Count">7e255baa975c6910215b35471153af9d</variable>
+        <variable display_value="">7e255baa975c6910215b35471153af9d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1375,7 +1374,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:42</sys_updated_on>
         <value/>
-        <variable display_value="Row Skip">76255baa975c6910215b35471153af99</variable>
+        <variable display_value="">76255baa975c6910215b35471153af99</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1389,7 +1388,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-12 12:09:11</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">f2255baa975c6910215b35471153af74</variable>
+        <variable display_value="">f2255baa975c6910215b35471153af74</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1403,69 +1402,8 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:42</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">fe255baa975c6910215b35471153af7b</variable>
+        <variable display_value="">fe255baa975c6910215b35471153af7b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=e76c03a0972d6510f5be33271153af29"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>e76c03a0972d6510f5be33271153af29</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 05:49:42</sys_created_on>
-        <sys_id>776c03a0972d6510f5be33271153af2b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-13 04:05:23</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD63256873b7996110cdb61064b360d98c","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD63256873b7996110cdb61064b360d98c":{"$COCollectionField":[{"Item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{flow_variable.property_high}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{flow_variable.property_low}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{flow_variable.property_option}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{flow_variable.property_sign}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"Item\",\"uiUniqueId\":\"4a926e86-fdb3-44ba-a5db-2465245a5bd6\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD63256873b7996110cdb61064b360d98c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bed725d6-1495-4010-8b96-3dc44d222ac7\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD63256873b7996110cdb61064b360d98c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"Item\",\"uiUniqueId\":\"4a926e86-fdb3-44ba-a5db-2465245a5bd6\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD63256873b7996110cdb61064b360d98c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bed725d6-1495-4010-8b96-3dc44d222ac7\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>e76c03a0972d6510f5be33271153af29</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 05:49:42</sys_created_on>
-        <sys_id>fb6c03a0972d6510f5be33271153af2b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 12:09:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>e76c03a0972d6510f5be33271153af29</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 05:49:42</sys_created_on>
-        <sys_id>3b6c03a0972d6510f5be33271153af2b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 12:09:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{flow_variable.property_full_pull}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>e76c03a0972d6510f5be33271153af29</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 05:49:42</sys_created_on>
-        <sys_id>736c03a0972d6510f5be33271153af2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 05:49:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{subflow.row_count}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_skip</field>
-        <id>e76c03a0972d6510f5be33271153af29</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 05:49:42</sys_created_on>
-        <sys_id>bf6c03a0972d6510f5be33271153af2b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 05:49:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{flow_variable.row_skips}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e76c03a0972d6510f5be33271153af29"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e76c03a0972d6510f5be33271153af29"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3328,7 +3266,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_service_properties_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-12 12:09:10</sys_updated_on>
         <url/>
@@ -3351,7 +3289,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_erp_source_id_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:39</sys_updated_on>
         <url/>
@@ -3374,7 +3312,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_connection_name_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:39</sys_updated_on>
         <url/>
@@ -3397,7 +3335,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_service_record_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:39</sys_updated_on>
         <url/>
@@ -3420,7 +3358,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_row_count_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:39</sys_updated_on>
         <url/>
@@ -3443,7 +3381,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aa6ccf60972d6510f5be33271153af48_range_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:39</sys_updated_on>
         <url/>
@@ -3468,7 +3406,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_aa6ccf60972d6510f5be33271153af48_status_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:40</sys_updated_on>
         <url/>
@@ -3491,7 +3429,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_aa6ccf60972d6510f5be33271153af48_error_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 05:49:40</sys_updated_on>
         <url/>
@@ -4386,9 +4324,8 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d96325d876da51046a6322e0ebb353d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Vendors">f9255baa975c6910215b35471153af6d</action_type>
-        <action_type_parent display_value="Look up Vendors">f87c0be2975c6910215b35471153af43</action_type_parent>
+        <action_type display_value="">f9255baa975c6910215b35471153af6d</action_type>
+        <action_type_parent display_value="">f87c0be2975c6910215b35471153af43</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Parallel Subflow Child Suppliers S4Hana">3215b7e897ad6510f5be33271153affb</flow>
@@ -4417,7 +4354,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:29</sys_updated_on>
         <value>0</value>
-        <variable display_value="Initial Load">fe255baa975c6910215b35471153af7b</variable>
+        <variable display_value="">fe255baa975c6910215b35471153af7b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -4431,7 +4368,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:29</sys_updated_on>
         <value/>
-        <variable display_value="Row Count">7e255baa975c6910215b35471153af9d</variable>
+        <variable display_value="">7e255baa975c6910215b35471153af9d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -4445,7 +4382,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:29</sys_updated_on>
         <value/>
-        <variable display_value="Row Skip">76255baa975c6910215b35471153af99</variable>
+        <variable display_value="">76255baa975c6910215b35471153af99</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -4459,69 +4396,8 @@ INCREASE COMPLETE COUNT</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-12 12:09:41</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">f2255baa975c6910215b35471153af74</variable>
+        <variable display_value="">f2255baa975c6910215b35471153af74</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=33153be897ad6510f5be33271153af2e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>company_code_criteria</field>
-        <id>33153be897ad6510f5be33271153af2e</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 08:47:29</sys_created_on>
-        <sys_id>bf153be897ad6510f5be33271153af2f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Anusha</sys_updated_by>
-        <sys_updated_on>2023-04-13 05:19:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD63256873b7996110cdb61064b360d98c","$COCollectionField":[{"HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD63256873b7996110cdb61064b360d98c":{"$COCollectionField":[{"Item":{"HIGH":"String","HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].HIGH\\\":\\\"{{flow_variable.property_high}}\\\"}\",\"default_value\":\"\",\"label\":\"To Company Code [ HIGH ]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"LOW":"String","LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].LOW\\\":\\\"{{flow_variable.property_low}}\\\"}\",\"default_value\":\"\",\"label\":\"From Company Code [ LOW ]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{flow_variable.property_option}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection Operator [ OPTION ]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{flow_variable.property_sign}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/Exclusive [ SIGN ]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"Item\",\"uiUniqueId\":\"4a926e86-fdb3-44ba-a5db-2465245a5bd6\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD63256873b7996110cdb61064b360d98c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bed725d6-1495-4010-8b96-3dc44d222ac7\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD63256873b7996110cdb61064b360d98c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Company Code Criteria\",\"mandatory\":\"false\",\"child_name\":\"Item\",\"uiUniqueId\":\"4a926e86-fdb3-44ba-a5db-2465245a5bd6\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD63256873b7996110cdb61064b360d98c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bed725d6-1495-4010-8b96-3dc44d222ac7\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>33153be897ad6510f5be33271153af2e</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 08:47:29</sys_created_on>
-        <sys_id>37153be897ad6510f5be33271153af30</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 12:09:41</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>initial_load</field>
-        <id>33153be897ad6510f5be33271153af2e</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 08:47:29</sys_created_on>
-        <sys_id>73153be897ad6510f5be33271153af30</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 12:09:41</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{flow_variable.property_full_pull}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_count</field>
-        <id>33153be897ad6510f5be33271153af2e</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 08:47:29</sys_created_on>
-        <sys_id>bb153be897ad6510f5be33271153af30</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 08:47:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{subflow.row_count}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>row_skip</field>
-        <id>33153be897ad6510f5be33271153af2e</id>
-        <sys_created_by>prama</sys_created_by>
-        <sys_created_on>2023-03-10 08:47:29</sys_created_on>
-        <sys_id>f7153be897ad6510f5be33271153af30</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>prama</sys_updated_by>
-        <sys_updated_on>2023-03-10 08:47:29</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9255baa975c6910215b35471153af6d</table>
-        <value>{{flow_variable.row_skips}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=33153be897ad6510f5be33271153af2e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=33153be897ad6510f5be33271153af2e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -6884,7 +6760,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_erp_source_id_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:25</sys_updated_on>
         <url/>
@@ -6907,7 +6783,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_connection_name_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:25</sys_updated_on>
         <url/>
@@ -6930,7 +6806,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_service_properties_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-12 12:09:41</sys_updated_on>
         <url/>
@@ -6953,7 +6829,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_service_record_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:25</sys_updated_on>
         <url/>
@@ -6976,7 +6852,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_range_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:25</sys_updated_on>
         <url/>
@@ -6999,7 +6875,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3215b7e897ad6510f5be33271153affb_row_count_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:25</sys_updated_on>
         <url/>
@@ -7024,7 +6900,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3215b7e897ad6510f5be33271153affb_error_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:26</sys_updated_on>
         <url/>
@@ -7047,7 +6923,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3215b7e897ad6510f5be33271153affb_status_en</sys_update_name>
         <sys_updated_by>prama</sys_updated_by>
         <sys_updated_on>2023-03-10 08:47:26</sys_updated_on>
         <url/>

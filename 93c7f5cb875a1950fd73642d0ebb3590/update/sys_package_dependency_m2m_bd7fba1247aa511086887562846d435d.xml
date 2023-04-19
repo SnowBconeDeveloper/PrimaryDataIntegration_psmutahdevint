@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Finance Common" source="sn_fin">067a068f53312300a3bd2a2db5dc3407</dependency>
+        <dependency display_value="Finance Common Architecture" source="sn_fin">067a068f53312300a3bd2a2db5dc3407</dependency>
         <min_version>6.2.1</min_version>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2022-10-17 12:14:03</sys_created_on>
