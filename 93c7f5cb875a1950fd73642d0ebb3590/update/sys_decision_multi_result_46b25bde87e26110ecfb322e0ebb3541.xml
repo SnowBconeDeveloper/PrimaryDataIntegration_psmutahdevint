@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Master Data Decision Policy">541be41cc3e2a550b6e89a07050131c5</decision_table>
+        <label>Flow: Update Supplier Location</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-04 09:49:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>46b25bde87e26110ecfb322e0ebb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow: Update Supplier Location</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_multi_result_46b25bde87e26110ecfb322e0ebb3541</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-04 09:49:20</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=46b25bde87e26110ecfb322e0ebb3541"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>46b25bde87e26110ecfb322e0ebb3541</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-04 09:49:20</sys_created_on>
+        <sys_id>ceb25bde87e26110ecfb322e0ebb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-04 09:49:20</sys_updated_on>
+        <value>487bd73e874ea51024ecfc86dabb3598</value>
+        <variable display_value="Flow">c10d249cc3e2a550b6e89a0705013107</variable>
+    </sys_variable_value>
+</record_update>

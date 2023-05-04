@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Event">a80d281cc3e2a550b6e89a0705013191</decision_input>
+        <decision_table display_value="Master Data Decision Policy">541be41cc3e2a550b6e89a07050131c5</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Event</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-27 16:37:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>790d641cc3e2a550b6e89a07050131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_790d641cc3e2a550b6e89a07050131ac</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-27 16:37:33</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+</record_update>

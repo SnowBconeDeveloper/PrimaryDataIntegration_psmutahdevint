@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_hub_flow</answer_table>
+        <answer_type>reference</answer_type>
+        <description/>
+        <label/>
+        <name>Master Data Policy</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 18:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e90322b38711a11046a6322e0ebb352d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Master Data Policy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_e90322b38711a11046a6322e0ebb352d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 19:04:39</sys_updated_on>
+    </sys_decision>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>652d3c0fdb02a5d8c9912f17d4961994</instance_id>
+        <instance_name>psmutahdevint</instance_name>
+        <name>sys_decision_e90322b38711a11046a6322e0ebb352d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_hub_flow</answer_table>
+        <answer_type>reference</answer_type>
+        <description/>
+        <label/>
+        <name>Master Data Policy</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 18:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e90322b38711a11046a6322e0ebb352d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Master Data Policy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_e90322b38711a11046a6322e0ebb352d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 19:04:39</sys_updated_on>
+    </sys_decision>
+</record_update>]]></payload>
+        <payload_hash>-2052468637</payload_hash>
+        <record_name>Master Data Policy</record_name>
+        <reverted_from/>
+        <source>424dc80d8352e1109a0b64e0deaad39b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 12:02:18</sys_created_on>
+        <sys_id>182ec8818392e1109a0b64e0deaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1878f182b130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 12:02:18</sys_updated_on>
+        <type>Decision Table</type>
+        <update_guid>d42ec8818a92e1109cc3be17016f0d2a</update_guid>
+        <update_guid_history>d42ec8818a92e1109cc3be17016f0d2a:-2052468637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-04 11:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision">sys_decision</sys_db_object>
+        <sys_id>0708b8eb12fc4b44812f5aa69332e644</sys_id>
+        <sys_metadata>e90322b38711a11046a6322e0ebb352d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Data Policy</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_decision_e90322b38711a11046a6322e0ebb352d</sys_update_name>
+        <sys_update_version display_value="sys_decision_e90322b38711a11046a6322e0ebb352d">182ec8818392e1109a0b64e0deaad32a</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-04 11:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
