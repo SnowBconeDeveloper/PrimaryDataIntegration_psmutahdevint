@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Master Data Decision Policy">541be41cc3e2a550b6e89a07050131c5</decision_table>
+        <label>Flow: Create Vendor</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-27 16:37:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd0d249cc3e2a550b6e89a07050131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow: Create Vendor</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_multi_result_bd0d249cc3e2a550b6e89a07050131bd</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-27 16:37:34</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=bd0d249cc3e2a550b6e89a07050131bd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>bd0d249cc3e2a550b6e89a07050131bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-27 16:37:34</sys_created_on>
+        <sys_id>7d0d249cc3e2a550b6e89a07050131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-27 16:37:34</sys_updated_on>
+        <value>228a1da387c82550a3e3cbb4dabb35e1</value>
+        <variable display_value="Flow">c10d249cc3e2a550b6e89a0705013107</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>652d3c0fdb02a5d8c9912f17d4961994</instance_id>
+        <instance_name>psmutahdevint</instance_name>
+        <name>sys_decision_multi_result_bd0d249cc3e2a550b6e89a07050131bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Master Data Decision Policy">541be41cc3e2a550b6e89a07050131c5</decision_table><label>Flow: Create Vendor</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>Prama</sys_created_by><sys_created_on>2023-04-27 16:37:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd0d249cc3e2a550b6e89a07050131bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Flow: Create Vendor</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sys_decision_multi_result_bd0d249cc3e2a550b6e89a07050131bd</sys_update_name><sys_updated_by>Prama</sys_updated_by><sys_updated_on>2023-04-27 16:37:34</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=bd0d249cc3e2a550b6e89a07050131bd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>bd0d249cc3e2a550b6e89a07050131bd</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Prama</sys_created_by><sys_created_on>2023-04-27 16:37:34</sys_created_on><sys_id>7d0d249cc3e2a550b6e89a07050131be</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Prama</sys_updated_by><sys_updated_on>2023-04-27 16:37:34</sys_updated_on><value>228a1da387c82550a3e3cbb4dabb35e1</value><variable display_value="Flow">c10d249cc3e2a550b6e89a0705013107</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>2143206995</payload_hash>
+        <record_name>Flow: Create Vendor</record_name>
+        <reverted_from/>
+        <source>17afe79ac3a26510f827dff905013191</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-04 11:55:58</sys_created_on>
+        <sys_id>09bf6b9ac3a26510f827dff905013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187e69e7a060000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-04 11:55:58</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>750d249c9ee2a550add5241666c37ac0</update_guid>
+        <update_guid_history>750d249c9ee2a550add5241666c37ac0:2143206995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-05 07:00:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>108b059b8b404e908d09420d6bec3c40</sys_id>
+        <sys_metadata>bd0d249cc3e2a550b6e89a07050131bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow: Create Vendor</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_bd0d249cc3e2a550b6e89a07050131bd</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_bd0d249cc3e2a550b6e89a07050131bd">09bf6b9ac3a26510f827dff905013162</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-05 07:00:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

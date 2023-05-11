@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Supplier V2 - Supplier Payment Information">78f5a0e687756950ecfb322e0ebb3507</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    return source.bank_account.setDisplayValue();
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-28 15:25:13</sys_created_on>
+        <sys_id>97acb56a87f96950ecfb322e0ebb353b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_97acb56a87f96950ecfb322e0ebb353b</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-03 14:44:04</sys_updated_on>
+        <target_field>account_number</target_field>
+        <target_table>sn_fin_supplier_payment</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>652d3c0fdb02a5d8c9912f17d4961994</instance_id>
+        <instance_name>psmutahdevint</instance_name>
+        <name>sys_transform_entry_97acb56a87f96950ecfb322e0ebb353b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Transform Supplier V2 - Supplier Payment Information"&gt;78f5a0e687756950ecfb322e0ebb3507&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+    return source.bank_account.setDisplayValue();
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;sn_sap_data_int_supplier_stg&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Prama&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-28 15:25:13&lt;/sys_created_on&gt;&lt;sys_id&gt;97acb56a87f96950ecfb322e0ebb353b&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_97acb56a87f96950ecfb322e0ebb353b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Prama&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-03 14:44:04&lt;/sys_updated_on&gt;&lt;target_field&gt;account_number&lt;/target_field&gt;&lt;target_table&gt;sn_fin_supplier_payment&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>775519544</payload_hash>
+        <record_name>[Script]</record_name>
+        <reverted_from/>
+        <source>77ae176dc31a2110f827dff90501319c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 16:30:39</sys_created_on>
+        <sys_id>7abe5b6dc31a2110f827dff90501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1879a5a93470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 16:30:39</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>51ec20a8dd862190b98ec3da5e0f73e0</update_guid>
+        <update_guid_history>51ec20a8dd862190b98ec3da5e0f73e0:775519544,3a7d7a65ba96211053ee3d425b6b3f99:-831247164,51ec20a8dd862190b98ec3da5e0f73e0:775519544,4182ed8711b5ad505f7a07cd279b1c85:-459695070,6e12298753b5ad5028412855c4ed1e05:-814294107,c401e54791b5ad50f88de4166dfa8b3c:-459695070,c4f0a54713b5ad50940373616bcde97c:-814294107,bcafddc3d5b5ad50a2d3e8dba1648dda:-1122456726,cd5f1983b0b5ad50ad68e5900bfb6d5f:-805885249,de070aa23c3d6950c8e6fb2f527914c2:1112957421,69ccb56adaf9695067739ed5f1e48dec:1045212112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-11 09:52:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>3924050fe5cf4faf8b3be7fd5da798d1</sys_id>
+        <sys_metadata>97acb56a87f96950ecfb322e0ebb353b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_97acb56a87f96950ecfb322e0ebb353b</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_97acb56a87f96950ecfb322e0ebb353b">7abe5b6dc31a2110f827dff90501315c</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-11 09:52:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
